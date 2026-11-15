@@ -1,0 +1,5010 @@
+{
+  "source": "train.csv",
+  "selection": "Track frequency descending, then genre name ascending for ties",
+  "top_n": 1000,
+  "rows": 350051,
+  "unknown_rows": 162592,
+  "unknown_column": "genre_unknown",
+  "genres": [
+    {
+      "genre": "karaoke",
+      "column": "genre_karaoke",
+      "track_count": 13491
+    },
+    {
+      "genre": "rap",
+      "column": "genre_rap",
+      "track_count": 12524
+    },
+    {
+      "genre": "pop",
+      "column": "genre_pop",
+      "track_count": 12240
+    },
+    {
+      "genre": "rock",
+      "column": "genre_rock",
+      "track_count": 11691
+    },
+    {
+      "genre": "hip hop",
+      "column": "genre_hip hop",
+      "track_count": 9231
+    },
+    {
+      "genre": "classical",
+      "column": "genre_classical",
+      "track_count": 7327
+    },
+    {
+      "genre": "pop rap",
+      "column": "genre_pop rap",
+      "track_count": 6908
+    },
+    {
+      "genre": "dance pop",
+      "column": "genre_dance pop",
+      "track_count": 6489
+    },
+    {
+      "genre": "trap",
+      "column": "genre_trap",
+      "track_count": 4942
+    },
+    {
+      "genre": "classic rock",
+      "column": "genre_classic rock",
+      "track_count": 4661
+    },
+    {
+      "genre": "album rock",
+      "column": "genre_album rock",
+      "track_count": 4263
+    },
+    {
+      "genre": "r&b",
+      "column": "genre_r&b",
+      "track_count": 4171
+    },
+    {
+      "genre": "soul",
+      "column": "genre_soul",
+      "track_count": 3855
+    },
+    {
+      "genre": "urban contemporary",
+      "column": "genre_urban contemporary",
+      "track_count": 3775
+    },
+    {
+      "genre": "country",
+      "column": "genre_country",
+      "track_count": 3684
+    },
+    {
+      "genre": "hard rock",
+      "column": "genre_hard rock",
+      "track_count": 3601
+    },
+    {
+      "genre": "baroque",
+      "column": "genre_baroque",
+      "track_count": 3259
+    },
+    {
+      "genre": "edm",
+      "column": "genre_edm",
+      "track_count": 3236
+    },
+    {
+      "genre": "early music",
+      "column": "genre_early music",
+      "track_count": 3150
+    },
+    {
+      "genre": "sleep",
+      "column": "genre_sleep",
+      "track_count": 3141
+    },
+    {
+      "genre": "gangster rap",
+      "column": "genre_gangster rap",
+      "track_count": 3138
+    },
+    {
+      "genre": "pop dance",
+      "column": "genre_pop dance",
+      "track_count": 3067
+    },
+    {
+      "genre": "atl hip hop",
+      "column": "genre_atl hip hop",
+      "track_count": 2912
+    },
+    {
+      "genre": "outlaw country",
+      "column": "genre_outlaw country",
+      "track_count": 2899
+    },
+    {
+      "genre": "german baroque",
+      "column": "genre_german baroque",
+      "track_count": 2832
+    },
+    {
+      "genre": "permanent wave",
+      "column": "genre_permanent wave",
+      "track_count": 2787
+    },
+    {
+      "genre": "southern hip hop",
+      "column": "genre_southern hip hop",
+      "track_count": 2588
+    },
+    {
+      "genre": "alternative metal",
+      "column": "genre_alternative metal",
+      "track_count": 2508
+    },
+    {
+      "genre": "vocal jazz",
+      "column": "genre_vocal jazz",
+      "track_count": 2499
+    },
+    {
+      "genre": "arkansas country",
+      "column": "genre_arkansas country",
+      "track_count": 2480
+    },
+    {
+      "genre": "contemporary country",
+      "column": "genre_contemporary country",
+      "track_count": 2416
+    },
+    {
+      "genre": "piano cover",
+      "column": "genre_piano cover",
+      "track_count": 2336
+    },
+    {
+      "genre": "country road",
+      "column": "genre_country road",
+      "track_count": 2214
+    },
+    {
+      "genre": "adult standards",
+      "column": "genre_adult standards",
+      "track_count": 2173
+    },
+    {
+      "genre": "east coast hip hop",
+      "column": "genre_east coast hip hop",
+      "track_count": 2063
+    },
+    {
+      "genre": "big room",
+      "column": "genre_big room",
+      "track_count": 2027
+    },
+    {
+      "genre": "alternative rock",
+      "column": "genre_alternative rock",
+      "track_count": 2025
+    },
+    {
+      "genre": "k-pop",
+      "column": "genre_k-pop",
+      "track_count": 1986
+    },
+    {
+      "genre": "house",
+      "column": "genre_house",
+      "track_count": 1903
+    },
+    {
+      "genre": "trance",
+      "column": "genre_trance",
+      "track_count": 1873
+    },
+    {
+      "genre": "mellow gold",
+      "column": "genre_mellow gold",
+      "track_count": 1860
+    },
+    {
+      "genre": "soft rock",
+      "column": "genre_soft rock",
+      "track_count": 1792
+    },
+    {
+      "genre": "metal",
+      "column": "genre_metal",
+      "track_count": 1709
+    },
+    {
+      "genre": "swing",
+      "column": "genre_swing",
+      "track_count": 1708
+    },
+    {
+      "genre": "brostep",
+      "column": "genre_brostep",
+      "track_count": 1698
+    },
+    {
+      "genre": "lounge",
+      "column": "genre_lounge",
+      "track_count": 1683
+    },
+    {
+      "genre": "workout product",
+      "column": "genre_workout product",
+      "track_count": 1679
+    },
+    {
+      "genre": "west coast rap",
+      "column": "genre_west coast rap",
+      "track_count": 1659
+    },
+    {
+      "genre": "classify",
+      "column": "genre_classify",
+      "track_count": 1642
+    },
+    {
+      "genre": "latin pop",
+      "column": "genre_latin pop",
+      "track_count": 1593
+    },
+    {
+      "genre": "g funk",
+      "column": "genre_g funk",
+      "track_count": 1584
+    },
+    {
+      "genre": "singer-songwriter",
+      "column": "genre_singer-songwriter",
+      "track_count": 1575
+    },
+    {
+      "genre": "classic country pop",
+      "column": "genre_classic country pop",
+      "track_count": 1557
+    },
+    {
+      "genre": "canadian pop",
+      "column": "genre_canadian pop",
+      "track_count": 1537
+    },
+    {
+      "genre": "slap house",
+      "column": "genre_slap house",
+      "track_count": 1516
+    },
+    {
+      "genre": "country dawn",
+      "column": "genre_country dawn",
+      "track_count": 1455
+    },
+    {
+      "genre": "funk",
+      "column": "genre_funk",
+      "track_count": 1455
+    },
+    {
+      "genre": "neo soul",
+      "column": "genre_neo soul",
+      "track_count": 1449
+    },
+    {
+      "genre": "ranchera",
+      "column": "genre_ranchera",
+      "track_count": 1440
+    },
+    {
+      "genre": "classic soul",
+      "column": "genre_classic soul",
+      "track_count": 1411
+    },
+    {
+      "genre": "melodic rap",
+      "column": "genre_melodic rap",
+      "track_count": 1381
+    },
+    {
+      "genre": "lullaby",
+      "column": "genre_lullaby",
+      "track_count": 1379
+    },
+    {
+      "genre": "dutch edm",
+      "column": "genre_dutch edm",
+      "track_count": 1371
+    },
+    {
+      "genre": "contemporary r&b",
+      "column": "genre_contemporary r&b",
+      "track_count": 1341
+    },
+    {
+      "genre": "country rock",
+      "column": "genre_country rock",
+      "track_count": 1336
+    },
+    {
+      "genre": "hip pop",
+      "column": "genre_hip pop",
+      "track_count": 1326
+    },
+    {
+      "genre": "modern rock",
+      "column": "genre_modern rock",
+      "track_count": 1306
+    },
+    {
+      "genre": "heartland rock",
+      "column": "genre_heartland rock",
+      "track_count": 1301
+    },
+    {
+      "genre": "classical performance",
+      "column": "genre_classical performance",
+      "track_count": 1265
+    },
+    {
+      "genre": "post-grunge",
+      "column": "genre_post-grunge",
+      "track_count": 1258
+    },
+    {
+      "genre": "early modern classical",
+      "column": "genre_early modern classical",
+      "track_count": 1256
+    },
+    {
+      "genre": "queens hip hop",
+      "column": "genre_queens hip hop",
+      "track_count": 1233
+    },
+    {
+      "genre": "british invasion",
+      "column": "genre_british invasion",
+      "track_count": 1214
+    },
+    {
+      "genre": "classical era",
+      "column": "genre_classical era",
+      "track_count": 1213
+    },
+    {
+      "genre": "soundtrack",
+      "column": "genre_soundtrack",
+      "track_count": 1192
+    },
+    {
+      "genre": "motown",
+      "column": "genre_motown",
+      "track_count": 1178
+    },
+    {
+      "genre": "funk rock",
+      "column": "genre_funk rock",
+      "track_count": 1163
+    },
+    {
+      "genre": "dirty south rap",
+      "column": "genre_dirty south rap",
+      "track_count": 1142
+    },
+    {
+      "genre": "jazz",
+      "column": "genre_jazz",
+      "track_count": 1139
+    },
+    {
+      "genre": "quiet storm",
+      "column": "genre_quiet storm",
+      "track_count": 1117
+    },
+    {
+      "genre": "cali rap",
+      "column": "genre_cali rap",
+      "track_count": 1092
+    },
+    {
+      "genre": "bolero",
+      "column": "genre_bolero",
+      "track_count": 1082
+    },
+    {
+      "genre": "nu metal",
+      "column": "genre_nu metal",
+      "track_count": 1075
+    },
+    {
+      "genre": "late romantic era",
+      "column": "genre_late romantic era",
+      "track_count": 1016
+    },
+    {
+      "genre": "nursery",
+      "column": "genre_nursery",
+      "track_count": 969
+    },
+    {
+      "genre": "progressive house",
+      "column": "genre_progressive house",
+      "track_count": 960
+    },
+    {
+      "genre": "rap metal",
+      "column": "genre_rap metal",
+      "track_count": 940
+    },
+    {
+      "genre": "post-romantic era",
+      "column": "genre_post-romantic era",
+      "track_count": 922
+    },
+    {
+      "genre": "art pop",
+      "column": "genre_art pop",
+      "track_count": 921
+    },
+    {
+      "genre": "uk pop",
+      "column": "genre_uk pop",
+      "track_count": 908
+    },
+    {
+      "genre": "mariachi",
+      "column": "genre_mariachi",
+      "track_count": 899
+    },
+    {
+      "genre": "k-pop boy group",
+      "column": "genre_k-pop boy group",
+      "track_count": 894
+    },
+    {
+      "genre": "new orleans rap",
+      "column": "genre_new orleans rap",
+      "track_count": 854
+    },
+    {
+      "genre": "hardcore hip hop",
+      "column": "genre_hardcore hip hop",
+      "track_count": 852
+    },
+    {
+      "genre": "musica para ninos",
+      "column": "genre_musica para ninos",
+      "track_count": 847
+    },
+    {
+      "genre": "fake",
+      "column": "genre_fake",
+      "track_count": 835
+    },
+    {
+      "genre": "folk rock",
+      "column": "genre_folk rock",
+      "track_count": 830
+    },
+    {
+      "genre": "lo-fi product",
+      "column": "genre_lo-fi product",
+      "track_count": 824
+    },
+    {
+      "genre": "detroit hip hop",
+      "column": "genre_detroit hip hop",
+      "track_count": 822
+    },
+    {
+      "genre": "psychedelic rock",
+      "column": "genre_psychedelic rock",
+      "track_count": 813
+    },
+    {
+      "genre": "synth funk",
+      "column": "genre_synth funk",
+      "track_count": 807
+    },
+    {
+      "genre": "jazz saxophone",
+      "column": "genre_jazz saxophone",
+      "track_count": 800
+    },
+    {
+      "genre": "post-teen pop",
+      "column": "genre_post-teen pop",
+      "track_count": 782
+    },
+    {
+      "genre": "environmental",
+      "column": "genre_environmental",
+      "track_count": 779
+    },
+    {
+      "genre": "classic oklahoma country",
+      "column": "genre_classic oklahoma country",
+      "track_count": 773
+    },
+    {
+      "genre": "k-pop girl group",
+      "column": "genre_k-pop girl group",
+      "track_count": 772
+    },
+    {
+      "genre": "electro house",
+      "column": "genre_electro house",
+      "track_count": 766
+    },
+    {
+      "genre": "bardcore",
+      "column": "genre_bardcore",
+      "track_count": 765
+    },
+    {
+      "genre": "jazz blues",
+      "column": "genre_jazz blues",
+      "track_count": 756
+    },
+    {
+      "genre": "bow pop",
+      "column": "genre_bow pop",
+      "track_count": 750
+    },
+    {
+      "genre": "choral",
+      "column": "genre_choral",
+      "track_count": 750
+    },
+    {
+      "genre": "minneapolis sound",
+      "column": "genre_minneapolis sound",
+      "track_count": 750
+    },
+    {
+      "genre": "underground hip hop",
+      "column": "genre_underground hip hop",
+      "track_count": 746
+    },
+    {
+      "genre": "mexican pop",
+      "column": "genre_mexican pop",
+      "track_count": 744
+    },
+    {
+      "genre": "disco",
+      "column": "genre_disco",
+      "track_count": 738
+    },
+    {
+      "genre": "theme",
+      "column": "genre_theme",
+      "track_count": 726
+    },
+    {
+      "genre": "chicago rap",
+      "column": "genre_chicago rap",
+      "track_count": 716
+    },
+    {
+      "genre": "roots reggae",
+      "column": "genre_roots reggae",
+      "track_count": 714
+    },
+    {
+      "genre": "blues rock",
+      "column": "genre_blues rock",
+      "track_count": 709
+    },
+    {
+      "genre": "norteno",
+      "column": "genre_norteno",
+      "track_count": 708
+    },
+    {
+      "genre": "funk metal",
+      "column": "genre_funk metal",
+      "track_count": 699
+    },
+    {
+      "genre": "reggae",
+      "column": "genre_reggae",
+      "track_count": 696
+    },
+    {
+      "genre": "contemporary classical",
+      "column": "genre_contemporary classical",
+      "track_count": 695
+    },
+    {
+      "genre": "indietronica",
+      "column": "genre_indietronica",
+      "track_count": 688
+    },
+    {
+      "genre": "canadian contemporary r&b",
+      "column": "genre_canadian contemporary r&b",
+      "track_count": 682
+    },
+    {
+      "genre": "british choir",
+      "column": "genre_british choir",
+      "track_count": 681
+    },
+    {
+      "genre": "easy listening",
+      "column": "genre_easy listening",
+      "track_count": 678
+    },
+    {
+      "genre": "irish rock",
+      "column": "genre_irish rock",
+      "track_count": 676
+    },
+    {
+      "genre": "conscious hip hop",
+      "column": "genre_conscious hip hop",
+      "track_count": 666
+    },
+    {
+      "genre": "new wave pop",
+      "column": "genre_new wave pop",
+      "track_count": 658
+    },
+    {
+      "genre": "children's music",
+      "column": "genre_children's music",
+      "track_count": 653
+    },
+    {
+      "genre": "canadian hip hop",
+      "column": "genre_canadian hip hop",
+      "track_count": 643
+    },
+    {
+      "genre": "early romantic era",
+      "column": "genre_early romantic era",
+      "track_count": 643
+    },
+    {
+      "genre": "progressive rock",
+      "column": "genre_progressive rock",
+      "track_count": 639
+    },
+    {
+      "genre": "grunge",
+      "column": "genre_grunge",
+      "track_count": 637
+    },
+    {
+      "genre": "musica mexicana",
+      "column": "genre_musica mexicana",
+      "track_count": 634
+    },
+    {
+      "genre": "british soundtrack",
+      "column": "genre_british soundtrack",
+      "track_count": 631
+    },
+    {
+      "genre": "orchestral soundtrack",
+      "column": "genre_orchestral soundtrack",
+      "track_count": 631
+    },
+    {
+      "genre": "sierreno",
+      "column": "genre_sierreno",
+      "track_count": 622
+    },
+    {
+      "genre": "banda",
+      "column": "genre_banda",
+      "track_count": 620
+    },
+    {
+      "genre": "cambridge choir",
+      "column": "genre_cambridge choir",
+      "track_count": 614
+    },
+    {
+      "genre": "punk",
+      "column": "genre_punk",
+      "track_count": 612
+    },
+    {
+      "genre": "electric blues",
+      "column": "genre_electric blues",
+      "track_count": 606
+    },
+    {
+      "genre": "christian music",
+      "column": "genre_christian music",
+      "track_count": 602
+    },
+    {
+      "genre": "modern blues",
+      "column": "genre_modern blues",
+      "track_count": 601
+    },
+    {
+      "genre": "pop punk",
+      "column": "genre_pop punk",
+      "track_count": 591
+    },
+    {
+      "genre": "anime score",
+      "column": "genre_anime score",
+      "track_count": 590
+    },
+    {
+      "genre": "folk",
+      "column": "genre_folk",
+      "track_count": 586
+    },
+    {
+      "genre": "c-pop",
+      "column": "genre_c-pop",
+      "track_count": 585
+    },
+    {
+      "genre": "bebop",
+      "column": "genre_bebop",
+      "track_count": 583
+    },
+    {
+      "genre": "urbano latino",
+      "column": "genre_urbano latino",
+      "track_count": 583
+    },
+    {
+      "genre": "melancholia",
+      "column": "genre_melancholia",
+      "track_count": 582
+    },
+    {
+      "genre": "metropopolis",
+      "column": "genre_metropopolis",
+      "track_count": 580
+    },
+    {
+      "genre": "trap queen",
+      "column": "genre_trap queen",
+      "track_count": 575
+    },
+    {
+      "genre": "cathedral choir",
+      "column": "genre_cathedral choir",
+      "track_count": 565
+    },
+    {
+      "genre": "pov: indie",
+      "column": "genre_pov: indie",
+      "track_count": 556
+    },
+    {
+      "genre": "rock en espanol",
+      "column": "genre_rock en espanol",
+      "track_count": 548
+    },
+    {
+      "genre": "chamber pop",
+      "column": "genre_chamber pop",
+      "track_count": 547
+    },
+    {
+      "genre": "southern rock",
+      "column": "genre_southern rock",
+      "track_count": 542
+    },
+    {
+      "genre": "university choir",
+      "column": "genre_university choir",
+      "track_count": 540
+    },
+    {
+      "genre": "uk dance",
+      "column": "genre_uk dance",
+      "track_count": 538
+    },
+    {
+      "genre": "viral pop",
+      "column": "genre_viral pop",
+      "track_count": 533
+    },
+    {
+      "genre": "latin alternative",
+      "column": "genre_latin alternative",
+      "track_count": 532
+    },
+    {
+      "genre": "opm",
+      "column": "genre_opm",
+      "track_count": 532
+    },
+    {
+      "genre": "preschool children's music",
+      "column": "genre_preschool children's music",
+      "track_count": 531
+    },
+    {
+      "genre": "art rock",
+      "column": "genre_art rock",
+      "track_count": 530
+    },
+    {
+      "genre": "compositional ambient",
+      "column": "genre_compositional ambient",
+      "track_count": 528
+    },
+    {
+      "genre": "southern soul",
+      "column": "genre_southern soul",
+      "track_count": 525
+    },
+    {
+      "genre": "japanese vgm",
+      "column": "genre_japanese vgm",
+      "track_count": 523
+    },
+    {
+      "genre": "acid rock",
+      "column": "genre_acid rock",
+      "track_count": 515
+    },
+    {
+      "genre": "german romanticism",
+      "column": "genre_german romanticism",
+      "track_count": 508
+    },
+    {
+      "genre": "english baroque",
+      "column": "genre_english baroque",
+      "track_count": 507
+    },
+    {
+      "genre": "stoner rock",
+      "column": "genre_stoner rock",
+      "track_count": 507
+    },
+    {
+      "genre": "british contemporary classical",
+      "column": "genre_british contemporary classical",
+      "track_count": 505
+    },
+    {
+      "genre": "britpop",
+      "column": "genre_britpop",
+      "track_count": 504
+    },
+    {
+      "genre": "yacht rock",
+      "column": "genre_yacht rock",
+      "track_count": 502
+    },
+    {
+      "genre": "barbadian pop",
+      "column": "genre_barbadian pop",
+      "track_count": 493
+    },
+    {
+      "genre": "memphis hip hop",
+      "column": "genre_memphis hip hop",
+      "track_count": 491
+    },
+    {
+      "genre": "proto-metal",
+      "column": "genre_proto-metal",
+      "track_count": 491
+    },
+    {
+      "genre": "neoclassicism",
+      "column": "genre_neoclassicism",
+      "track_count": 490
+    },
+    {
+      "genre": "spa",
+      "column": "genre_spa",
+      "track_count": 486
+    },
+    {
+      "genre": "tropical",
+      "column": "genre_tropical",
+      "track_count": 484
+    },
+    {
+      "genre": "nashville sound",
+      "column": "genre_nashville sound",
+      "track_count": 482
+    },
+    {
+      "genre": "british modern classical",
+      "column": "genre_british modern classical",
+      "track_count": 472
+    },
+    {
+      "genre": "drill",
+      "column": "genre_drill",
+      "track_count": 472
+    },
+    {
+      "genre": "jazz piano",
+      "column": "genre_jazz piano",
+      "track_count": 466
+    },
+    {
+      "genre": "indie rock",
+      "column": "genre_indie rock",
+      "track_count": 461
+    },
+    {
+      "genre": "latin rock",
+      "column": "genre_latin rock",
+      "track_count": 461
+    },
+    {
+      "genre": "birmingham metal",
+      "column": "genre_birmingham metal",
+      "track_count": 460
+    },
+    {
+      "genre": "cantopop",
+      "column": "genre_cantopop",
+      "track_count": 456
+    },
+    {
+      "genre": "cool jazz",
+      "column": "genre_cool jazz",
+      "track_count": 449
+    },
+    {
+      "genre": "trap latino",
+      "column": "genre_trap latino",
+      "track_count": 448
+    },
+    {
+      "genre": "classic opm",
+      "column": "genre_classic opm",
+      "track_count": 447
+    },
+    {
+      "genre": "japanese soundtrack",
+      "column": "genre_japanese soundtrack",
+      "track_count": 446
+    },
+    {
+      "genre": "uk doom metal",
+      "column": "genre_uk doom metal",
+      "track_count": 444
+    },
+    {
+      "genre": "exotica",
+      "column": "genre_exotica",
+      "track_count": 439
+    },
+    {
+      "genre": "musica sonorense",
+      "column": "genre_musica sonorense",
+      "track_count": 439
+    },
+    {
+      "genre": "ccm",
+      "column": "genre_ccm",
+      "track_count": 438
+    },
+    {
+      "genre": "symphonic rock",
+      "column": "genre_symphonic rock",
+      "track_count": 437
+    },
+    {
+      "genre": "new romantic",
+      "column": "genre_new romantic",
+      "track_count": 432
+    },
+    {
+      "genre": "opera",
+      "column": "genre_opera",
+      "track_count": 423
+    },
+    {
+      "genre": "orthodox chant",
+      "column": "genre_orthodox chant",
+      "track_count": 423
+    },
+    {
+      "genre": "alternative r&b",
+      "column": "genre_alternative r&b",
+      "track_count": 421
+    },
+    {
+      "genre": "alternative hip hop",
+      "column": "genre_alternative hip hop",
+      "track_count": 419
+    },
+    {
+      "genre": "atl trap",
+      "column": "genre_atl trap",
+      "track_count": 419
+    },
+    {
+      "genre": "new wave",
+      "column": "genre_new wave",
+      "track_count": 414
+    },
+    {
+      "genre": "modern country rock",
+      "column": "genre_modern country rock",
+      "track_count": 412
+    },
+    {
+      "genre": "glam metal",
+      "column": "genre_glam metal",
+      "track_count": 411
+    },
+    {
+      "genre": "italian romanticism",
+      "column": "genre_italian romanticism",
+      "track_count": 410
+    },
+    {
+      "genre": "spanish pop",
+      "column": "genre_spanish pop",
+      "track_count": 406
+    },
+    {
+      "genre": "rock-and-roll",
+      "column": "genre_rock-and-roll",
+      "track_count": 393
+    },
+    {
+      "genre": "soul jazz",
+      "column": "genre_soul jazz",
+      "track_count": 392
+    },
+    {
+      "genre": "library music",
+      "column": "genre_library music",
+      "track_count": 390
+    },
+    {
+      "genre": "philly rap",
+      "column": "genre_philly rap",
+      "track_count": 390
+    },
+    {
+      "genre": "pop rock",
+      "column": "genre_pop rock",
+      "track_count": 387
+    },
+    {
+      "genre": "power pop",
+      "column": "genre_power pop",
+      "track_count": 387
+    },
+    {
+      "genre": "ectofolk",
+      "column": "genre_ectofolk",
+      "track_count": 385
+    },
+    {
+      "genre": "socal pop punk",
+      "column": "genre_socal pop punk",
+      "track_count": 385
+    },
+    {
+      "genre": "torch song",
+      "column": "genre_torch song",
+      "track_count": 385
+    },
+    {
+      "genre": "dub",
+      "column": "genre_dub",
+      "track_count": 384
+    },
+    {
+      "genre": "orchestral performance",
+      "column": "genre_orchestral performance",
+      "track_count": 384
+    },
+    {
+      "genre": "video game music",
+      "column": "genre_video game music",
+      "track_count": 382
+    },
+    {
+      "genre": "old school dancehall",
+      "column": "genre_old school dancehall",
+      "track_count": 377
+    },
+    {
+      "genre": "christian alternative rock",
+      "column": "genre_christian alternative rock",
+      "track_count": 376
+    },
+    {
+      "genre": "electro",
+      "column": "genre_electro",
+      "track_count": 375
+    },
+    {
+      "genre": "asmr",
+      "column": "genre_asmr",
+      "track_count": 371
+    },
+    {
+      "genre": "latin arena pop",
+      "column": "genre_latin arena pop",
+      "track_count": 371
+    },
+    {
+      "genre": "classic texas country",
+      "column": "genre_classic texas country",
+      "track_count": 367
+    },
+    {
+      "genre": "australian country",
+      "column": "genre_australian country",
+      "track_count": 366
+    },
+    {
+      "genre": "lovers rock",
+      "column": "genre_lovers rock",
+      "track_count": 364
+    },
+    {
+      "genre": "pittsburgh rap",
+      "column": "genre_pittsburgh rap",
+      "track_count": 362
+    },
+    {
+      "genre": "old school atlanta hip hop",
+      "column": "genre_old school atlanta hip hop",
+      "track_count": 361
+    },
+    {
+      "genre": "violin",
+      "column": "genre_violin",
+      "track_count": 361
+    },
+    {
+      "genre": "harlem renaissance",
+      "column": "genre_harlem renaissance",
+      "track_count": 360
+    },
+    {
+      "genre": "8-bit",
+      "column": "genre_8-bit",
+      "track_count": 356
+    },
+    {
+      "genre": "jazz funk",
+      "column": "genre_jazz funk",
+      "track_count": 356
+    },
+    {
+      "genre": "russian romanticism",
+      "column": "genre_russian romanticism",
+      "track_count": 356
+    },
+    {
+      "genre": "tejano",
+      "column": "genre_tejano",
+      "track_count": 356
+    },
+    {
+      "genre": "lilith",
+      "column": "genre_lilith",
+      "track_count": 354
+    },
+    {
+      "genre": "reggaeton",
+      "column": "genre_reggaeton",
+      "track_count": 351
+    },
+    {
+      "genre": "otacore",
+      "column": "genre_otacore",
+      "track_count": 347
+    },
+    {
+      "genre": "bachata",
+      "column": "genre_bachata",
+      "track_count": 346
+    },
+    {
+      "genre": "pop r&b",
+      "column": "genre_pop r&b",
+      "track_count": 346
+    },
+    {
+      "genre": "chanson",
+      "column": "genre_chanson",
+      "track_count": 345
+    },
+    {
+      "genre": "mandopop",
+      "column": "genre_mandopop",
+      "track_count": 341
+    },
+    {
+      "genre": "dancehall",
+      "column": "genre_dancehall",
+      "track_count": 340
+    },
+    {
+      "genre": "filter house",
+      "column": "genre_filter house",
+      "track_count": 339
+    },
+    {
+      "genre": "houston rap",
+      "column": "genre_houston rap",
+      "track_count": 336
+    },
+    {
+      "genre": "italian opera",
+      "column": "genre_italian opera",
+      "track_count": 336
+    },
+    {
+      "genre": "sound team",
+      "column": "genre_sound team",
+      "track_count": 335
+    },
+    {
+      "genre": "neo-synthpop",
+      "column": "genre_neo-synthpop",
+      "track_count": 334
+    },
+    {
+      "genre": "water",
+      "column": "genre_water",
+      "track_count": 334
+    },
+    {
+      "genre": "antiviral pop",
+      "column": "genre_antiviral pop",
+      "track_count": 333
+    },
+    {
+      "genre": "bubblegum pop",
+      "column": "genre_bubblegum pop",
+      "track_count": 333
+    },
+    {
+      "genre": "bossa nova",
+      "column": "genre_bossa nova",
+      "track_count": 332
+    },
+    {
+      "genre": "gospel",
+      "column": "genre_gospel",
+      "track_count": 332
+    },
+    {
+      "genre": "crunk",
+      "column": "genre_crunk",
+      "track_count": 331
+    },
+    {
+      "genre": "classic cantopop",
+      "column": "genre_classic cantopop",
+      "track_count": 328
+    },
+    {
+      "genre": "renaissance",
+      "column": "genre_renaissance",
+      "track_count": 328
+    },
+    {
+      "genre": "golden age hip hop",
+      "column": "genre_golden age hip hop",
+      "track_count": 327
+    },
+    {
+      "genre": "west coast trap",
+      "column": "genre_west coast trap",
+      "track_count": 327
+    },
+    {
+      "genre": "dfw rap",
+      "column": "genre_dfw rap",
+      "track_count": 325
+    },
+    {
+      "genre": "eurodance",
+      "column": "genre_eurodance",
+      "track_count": 325
+    },
+    {
+      "genre": "contemporary post-bop",
+      "column": "genre_contemporary post-bop",
+      "track_count": 324
+    },
+    {
+      "genre": "impressionism",
+      "column": "genre_impressionism",
+      "track_count": 323
+    },
+    {
+      "genre": "indie pop",
+      "column": "genre_indie pop",
+      "track_count": 322
+    },
+    {
+      "genre": "broadway",
+      "column": "genre_broadway",
+      "track_count": 321
+    },
+    {
+      "genre": "new age piano",
+      "column": "genre_new age piano",
+      "track_count": 319
+    },
+    {
+      "genre": "classic city pop",
+      "column": "genre_classic city pop",
+      "track_count": 310
+    },
+    {
+      "genre": "french pop",
+      "column": "genre_french pop",
+      "track_count": 309
+    },
+    {
+      "genre": "baton rouge rap",
+      "column": "genre_baton rouge rap",
+      "track_count": 307
+    },
+    {
+      "genre": "old school hip hop",
+      "column": "genre_old school hip hop",
+      "track_count": 307
+    },
+    {
+      "genre": "french romanticism",
+      "column": "genre_french romanticism",
+      "track_count": 306
+    },
+    {
+      "genre": "glam rock",
+      "column": "genre_glam rock",
+      "track_count": 304
+    },
+    {
+      "genre": "pop romantico",
+      "column": "genre_pop romantico",
+      "track_count": 301
+    },
+    {
+      "genre": "italian baroque",
+      "column": "genre_italian baroque",
+      "track_count": 300
+    },
+    {
+      "genre": "latin hip hop",
+      "column": "genre_latin hip hop",
+      "track_count": 300
+    },
+    {
+      "genre": "hammond organ",
+      "column": "genre_hammond organ",
+      "track_count": 299
+    },
+    {
+      "genre": "brazilian jazz",
+      "column": "genre_brazilian jazz",
+      "track_count": 296
+    },
+    {
+      "genre": "roots worship",
+      "column": "genre_roots worship",
+      "track_count": 296
+    },
+    {
+      "genre": "jazz trumpet",
+      "column": "genre_jazz trumpet",
+      "track_count": 294
+    },
+    {
+      "genre": "neo-classical",
+      "column": "genre_neo-classical",
+      "track_count": 294
+    },
+    {
+      "genre": "progressive trance",
+      "column": "genre_progressive trance",
+      "track_count": 294
+    },
+    {
+      "genre": "progressive electro house",
+      "column": "genre_progressive electro house",
+      "track_count": 293
+    },
+    {
+      "genre": "salsa",
+      "column": "genre_salsa",
+      "track_count": 293
+    },
+    {
+      "genre": "rockabilly",
+      "column": "genre_rockabilly",
+      "track_count": 292
+    },
+    {
+      "genre": "classical cello",
+      "column": "genre_classical cello",
+      "track_count": 289
+    },
+    {
+      "genre": "sertanejo",
+      "column": "genre_sertanejo",
+      "track_count": 289
+    },
+    {
+      "genre": "musica de fondo",
+      "column": "genre_musica de fondo",
+      "track_count": 288
+    },
+    {
+      "genre": "vbs",
+      "column": "genre_vbs",
+      "track_count": 286
+    },
+    {
+      "genre": "jazz guitar",
+      "column": "genre_jazz guitar",
+      "track_count": 285
+    },
+    {
+      "genre": "french hip hop",
+      "column": "genre_french hip hop",
+      "track_count": 283
+    },
+    {
+      "genre": "boom bap",
+      "column": "genre_boom bap",
+      "track_count": 281
+    },
+    {
+      "genre": "downtempo",
+      "column": "genre_downtempo",
+      "track_count": 279
+    },
+    {
+      "genre": "british folk",
+      "column": "genre_british folk",
+      "track_count": 278
+    },
+    {
+      "genre": "musica tropical guatemalteca",
+      "column": "genre_musica tropical guatemalteca",
+      "track_count": 278
+    },
+    {
+      "genre": "hungarian pop",
+      "column": "genre_hungarian pop",
+      "track_count": 274
+    },
+    {
+      "genre": "ska",
+      "column": "genre_ska",
+      "track_count": 274
+    },
+    {
+      "genre": "hyphy",
+      "column": "genre_hyphy",
+      "track_count": 273
+    },
+    {
+      "genre": "meditation",
+      "column": "genre_meditation",
+      "track_count": 273
+    },
+    {
+      "genre": "uplifting trance",
+      "column": "genre_uplifting trance",
+      "track_count": 271
+    },
+    {
+      "genre": "german soundtrack",
+      "column": "genre_german soundtrack",
+      "track_count": 270
+    },
+    {
+      "genre": "french rock",
+      "column": "genre_french rock",
+      "track_count": 269
+    },
+    {
+      "genre": "american modern classical",
+      "column": "genre_american modern classical",
+      "track_count": 268
+    },
+    {
+      "genre": "country blues",
+      "column": "genre_country blues",
+      "track_count": 268
+    },
+    {
+      "genre": "indie folk",
+      "column": "genre_indie folk",
+      "track_count": 268
+    },
+    {
+      "genre": "chicano rap",
+      "column": "genre_chicano rap",
+      "track_count": 267
+    },
+    {
+      "genre": "neomelodici",
+      "column": "genre_neomelodici",
+      "track_count": 266
+    },
+    {
+      "genre": "piano rock",
+      "column": "genre_piano rock",
+      "track_count": 263
+    },
+    {
+      "genre": "sertanejo universitario",
+      "column": "genre_sertanejo universitario",
+      "track_count": 263
+    },
+    {
+      "genre": "slow game",
+      "column": "genre_slow game",
+      "track_count": 263
+    },
+    {
+      "genre": "nyc rap",
+      "column": "genre_nyc rap",
+      "track_count": 262
+    },
+    {
+      "genre": "german hip hop",
+      "column": "genre_german hip hop",
+      "track_count": 260
+    },
+    {
+      "genre": "south carolina hip hop",
+      "column": "genre_south carolina hip hop",
+      "track_count": 260
+    },
+    {
+      "genre": "polish classical",
+      "column": "genre_polish classical",
+      "track_count": 259
+    },
+    {
+      "genre": "modern alternative rock",
+      "column": "genre_modern alternative rock",
+      "track_count": 258
+    },
+    {
+      "genre": "banda jalisciense",
+      "column": "genre_banda jalisciense",
+      "track_count": 257
+    },
+    {
+      "genre": "baltimore hip hop",
+      "column": "genre_baltimore hip hop",
+      "track_count": 255
+    },
+    {
+      "genre": "salsa puertorriquena",
+      "column": "genre_salsa puertorriquena",
+      "track_count": 255
+    },
+    {
+      "genre": "industrial metal",
+      "column": "genre_industrial metal",
+      "track_count": 253
+    },
+    {
+      "genre": "pop flamenco",
+      "column": "genre_pop flamenco",
+      "track_count": 252
+    },
+    {
+      "genre": "anglican liturgy",
+      "column": "genre_anglican liturgy",
+      "track_count": 251
+    },
+    {
+      "genre": "filmi",
+      "column": "genre_filmi",
+      "track_count": 251
+    },
+    {
+      "genre": "pop electronico",
+      "column": "genre_pop electronico",
+      "track_count": 251
+    },
+    {
+      "genre": "electronica argentina",
+      "column": "genre_electronica argentina",
+      "track_count": 250
+    },
+    {
+      "genre": "k-rap",
+      "column": "genre_k-rap",
+      "track_count": 250
+    },
+    {
+      "genre": "classic praise",
+      "column": "genre_classic praise",
+      "track_count": 249
+    },
+    {
+      "genre": "early music ensemble",
+      "column": "genre_early music ensemble",
+      "track_count": 249
+    },
+    {
+      "genre": "modern blues rock",
+      "column": "genre_modern blues rock",
+      "track_count": 249
+    },
+    {
+      "genre": "deep house",
+      "column": "genre_deep house",
+      "track_count": 248
+    },
+    {
+      "genre": "speed metal",
+      "column": "genre_speed metal",
+      "track_count": 248
+    },
+    {
+      "genre": "classic canadian rock",
+      "column": "genre_classic canadian rock",
+      "track_count": 247
+    },
+    {
+      "genre": "ska revival",
+      "column": "genre_ska revival",
+      "track_count": 247
+    },
+    {
+      "genre": "synthpop",
+      "column": "genre_synthpop",
+      "track_count": 247
+    },
+    {
+      "genre": "dixieland",
+      "column": "genre_dixieland",
+      "track_count": 245
+    },
+    {
+      "genre": "miami hip hop",
+      "column": "genre_miami hip hop",
+      "track_count": 245
+    },
+    {
+      "genre": "melodic house",
+      "column": "genre_melodic house",
+      "track_count": 244
+    },
+    {
+      "genre": "sound",
+      "column": "genre_sound",
+      "track_count": 244
+    },
+    {
+      "genre": "classic mandopop",
+      "column": "genre_classic mandopop",
+      "track_count": 242
+    },
+    {
+      "genre": "smooth saxophone",
+      "column": "genre_smooth saxophone",
+      "track_count": 242
+    },
+    {
+      "genre": "anime",
+      "column": "genre_anime",
+      "track_count": 241
+    },
+    {
+      "genre": "thrash metal",
+      "column": "genre_thrash metal",
+      "track_count": 239
+    },
+    {
+      "genre": "cantautor",
+      "column": "genre_cantautor",
+      "track_count": 238
+    },
+    {
+      "genre": "worship",
+      "column": "genre_worship",
+      "track_count": 238
+    },
+    {
+      "genre": "cabaret",
+      "column": "genre_cabaret",
+      "track_count": 237
+    },
+    {
+      "genre": "detroit trap",
+      "column": "genre_detroit trap",
+      "track_count": 237
+    },
+    {
+      "genre": "oxford indie",
+      "column": "genre_oxford indie",
+      "track_count": 237
+    },
+    {
+      "genre": "russian modern classical",
+      "column": "genre_russian modern classical",
+      "track_count": 237
+    },
+    {
+      "genre": "alt z",
+      "column": "genre_alt z",
+      "track_count": 236
+    },
+    {
+      "genre": "cartoon",
+      "column": "genre_cartoon",
+      "track_count": 236
+    },
+    {
+      "genre": "jazz organ",
+      "column": "genre_jazz organ",
+      "track_count": 236
+    },
+    {
+      "genre": "epicore",
+      "column": "genre_epicore",
+      "track_count": 234
+    },
+    {
+      "genre": "white noise",
+      "column": "genre_white noise",
+      "track_count": 234
+    },
+    {
+      "genre": "country gospel",
+      "column": "genre_country gospel",
+      "track_count": 232
+    },
+    {
+      "genre": "intelligent dance music",
+      "column": "genre_intelligent dance music",
+      "track_count": 232
+    },
+    {
+      "genre": "jangle pop",
+      "column": "genre_jangle pop",
+      "track_count": 230
+    },
+    {
+      "genre": "ambeat",
+      "column": "genre_ambeat",
+      "track_count": 229
+    },
+    {
+      "genre": "zen",
+      "column": "genre_zen",
+      "track_count": 229
+    },
+    {
+      "genre": "acoustic pop",
+      "column": "genre_acoustic pop",
+      "track_count": 228
+    },
+    {
+      "genre": "alternative country",
+      "column": "genre_alternative country",
+      "track_count": 227
+    },
+    {
+      "genre": "electronica",
+      "column": "genre_electronica",
+      "track_count": 226
+    },
+    {
+      "genre": "corrido",
+      "column": "genre_corrido",
+      "track_count": 225
+    },
+    {
+      "genre": "florida rap",
+      "column": "genre_florida rap",
+      "track_count": 225
+    },
+    {
+      "genre": "rage rap",
+      "column": "genre_rage rap",
+      "track_count": 225
+    },
+    {
+      "genre": "idol kayo",
+      "column": "genre_idol kayo",
+      "track_count": 223
+    },
+    {
+      "genre": "medieval",
+      "column": "genre_medieval",
+      "track_count": 223
+    },
+    {
+      "genre": "euroska",
+      "column": "genre_euroska",
+      "track_count": 222
+    },
+    {
+      "genre": "ukrainian classical",
+      "column": "genre_ukrainian classical",
+      "track_count": 222
+    },
+    {
+      "genre": "neon pop punk",
+      "column": "genre_neon pop punk",
+      "track_count": 219
+    },
+    {
+      "genre": "country pop",
+      "column": "genre_country pop",
+      "track_count": 218
+    },
+    {
+      "genre": "pianissimo",
+      "column": "genre_pianissimo",
+      "track_count": 216
+    },
+    {
+      "genre": "new americana",
+      "column": "genre_new americana",
+      "track_count": 215
+    },
+    {
+      "genre": "bulgarian pop",
+      "column": "genre_bulgarian pop",
+      "track_count": 214
+    },
+    {
+      "genre": "rain",
+      "column": "genre_rain",
+      "track_count": 214
+    },
+    {
+      "genre": "gospel r&b",
+      "column": "genre_gospel r&b",
+      "track_count": 213
+    },
+    {
+      "genre": "trova",
+      "column": "genre_trova",
+      "track_count": 213
+    },
+    {
+      "genre": "candy pop",
+      "column": "genre_candy pop",
+      "track_count": 212
+    },
+    {
+      "genre": "celtic rock",
+      "column": "genre_celtic rock",
+      "track_count": 211
+    },
+    {
+      "genre": "minimal techno",
+      "column": "genre_minimal techno",
+      "track_count": 209
+    },
+    {
+      "genre": "sertanejo pop",
+      "column": "genre_sertanejo pop",
+      "track_count": 209
+    },
+    {
+      "genre": "grupera",
+      "column": "genre_grupera",
+      "track_count": 207
+    },
+    {
+      "genre": "musica tradicional cubana",
+      "column": "genre_musica tradicional cubana",
+      "track_count": 207
+    },
+    {
+      "genre": "cumbia salvadorena",
+      "column": "genre_cumbia salvadorena",
+      "track_count": 205
+    },
+    {
+      "genre": "korean instrumental",
+      "column": "genre_korean instrumental",
+      "track_count": 205
+    },
+    {
+      "genre": "spytrack",
+      "column": "genre_spytrack",
+      "track_count": 205
+    },
+    {
+      "genre": "hong kong rock",
+      "column": "genre_hong kong rock",
+      "track_count": 203
+    },
+    {
+      "genre": "latin christian",
+      "column": "genre_latin christian",
+      "track_count": 203
+    },
+    {
+      "genre": "smooth jazz",
+      "column": "genre_smooth jazz",
+      "track_count": 203
+    },
+    {
+      "genre": "emo",
+      "column": "genre_emo",
+      "track_count": 202
+    },
+    {
+      "genre": "nouvelle chanson francaise",
+      "column": "genre_nouvelle chanson francaise",
+      "track_count": 202
+    },
+    {
+      "genre": "yoga",
+      "column": "genre_yoga",
+      "track_count": 202
+    },
+    {
+      "genre": "florida drill",
+      "column": "genre_florida drill",
+      "track_count": 201
+    },
+    {
+      "genre": "italo dance",
+      "column": "genre_italo dance",
+      "track_count": 201
+    },
+    {
+      "genre": "lo-fi",
+      "column": "genre_lo-fi",
+      "track_count": 200
+    },
+    {
+      "genre": "dutch house",
+      "column": "genre_dutch house",
+      "track_count": 199
+    },
+    {
+      "genre": "german ska",
+      "column": "genre_german ska",
+      "track_count": 199
+    },
+    {
+      "genre": "new jack swing",
+      "column": "genre_new jack swing",
+      "track_count": 197
+    },
+    {
+      "genre": "hard bop",
+      "column": "genre_hard bop",
+      "track_count": 196
+    },
+    {
+      "genre": "idol",
+      "column": "genre_idol",
+      "track_count": 196
+    },
+    {
+      "genre": "marimba orquesta",
+      "column": "genre_marimba orquesta",
+      "track_count": 195
+    },
+    {
+      "genre": "cloud rap",
+      "column": "genre_cloud rap",
+      "track_count": 194
+    },
+    {
+      "genre": "old school thrash",
+      "column": "genre_old school thrash",
+      "track_count": 193
+    },
+    {
+      "genre": "pixel",
+      "column": "genre_pixel",
+      "track_count": 193
+    },
+    {
+      "genre": "tassie indie",
+      "column": "genre_tassie indie",
+      "track_count": 193
+    },
+    {
+      "genre": "pop violin",
+      "column": "genre_pop violin",
+      "track_count": 192
+    },
+    {
+      "genre": "dance rock",
+      "column": "genre_dance rock",
+      "track_count": 191
+    },
+    {
+      "genre": "classic australian country",
+      "column": "genre_classic australian country",
+      "track_count": 190
+    },
+    {
+      "genre": "classical mezzo-soprano",
+      "column": "genre_classical mezzo-soprano",
+      "track_count": 190
+    },
+    {
+      "genre": "rock andaluz",
+      "column": "genre_rock andaluz",
+      "track_count": 190
+    },
+    {
+      "genre": "baroque pop",
+      "column": "genre_baroque pop",
+      "track_count": 189
+    },
+    {
+      "genre": "xitsonga pop",
+      "column": "genre_xitsonga pop",
+      "track_count": 189
+    },
+    {
+      "genre": "classical soprano",
+      "column": "genre_classical soprano",
+      "track_count": 187
+    },
+    {
+      "genre": "rap rock",
+      "column": "genre_rap rock",
+      "track_count": 187
+    },
+    {
+      "genre": "vocal resources",
+      "column": "genre_vocal resources",
+      "track_count": 187
+    },
+    {
+      "genre": "drill and bass",
+      "column": "genre_drill and bass",
+      "track_count": 186
+    },
+    {
+      "genre": "ocean",
+      "column": "genre_ocean",
+      "track_count": 186
+    },
+    {
+      "genre": "trip hop",
+      "column": "genre_trip hop",
+      "track_count": 186
+    },
+    {
+      "genre": "chicago punk",
+      "column": "genre_chicago punk",
+      "track_count": 185
+    },
+    {
+      "genre": "christian indie",
+      "column": "genre_christian indie",
+      "track_count": 185
+    },
+    {
+      "genre": "stomp and holler",
+      "column": "genre_stomp and holler",
+      "track_count": 185
+    },
+    {
+      "genre": "neo mellow",
+      "column": "genre_neo mellow",
+      "track_count": 184
+    },
+    {
+      "genre": "groove metal",
+      "column": "genre_groove metal",
+      "track_count": 183
+    },
+    {
+      "genre": "rocksteady",
+      "column": "genre_rocksteady",
+      "track_count": 183
+    },
+    {
+      "genre": "scorecore",
+      "column": "genre_scorecore",
+      "track_count": 183
+    },
+    {
+      "genre": "diva house",
+      "column": "genre_diva house",
+      "track_count": 182
+    },
+    {
+      "genre": "modern country pop",
+      "column": "genre_modern country pop",
+      "track_count": 182
+    },
+    {
+      "genre": "modern folk rock",
+      "column": "genre_modern folk rock",
+      "track_count": 182
+    },
+    {
+      "genre": "old-time fiddle",
+      "column": "genre_old-time fiddle",
+      "track_count": 182
+    },
+    {
+      "genre": "death metal",
+      "column": "genre_death metal",
+      "track_count": 181
+    },
+    {
+      "genre": "women's music",
+      "column": "genre_women's music",
+      "track_count": 181
+    },
+    {
+      "genre": "screamo",
+      "column": "genre_screamo",
+      "track_count": 180
+    },
+    {
+      "genre": "jam band",
+      "column": "genre_jam band",
+      "track_count": 179
+    },
+    {
+      "genre": "dinner jazz",
+      "column": "genre_dinner jazz",
+      "track_count": 178
+    },
+    {
+      "genre": "talent show",
+      "column": "genre_talent show",
+      "track_count": 178
+    },
+    {
+      "genre": "tennessee hip hop",
+      "column": "genre_tennessee hip hop",
+      "track_count": 178
+    },
+    {
+      "genre": "lo-fi beats",
+      "column": "genre_lo-fi beats",
+      "track_count": 177
+    },
+    {
+      "genre": "power-pop punk",
+      "column": "genre_power-pop punk",
+      "track_count": 177
+    },
+    {
+      "genre": "solo wave",
+      "column": "genre_solo wave",
+      "track_count": 177
+    },
+    {
+      "genre": "classical guitar",
+      "column": "genre_classical guitar",
+      "track_count": 176
+    },
+    {
+      "genre": "indie hip hop",
+      "column": "genre_indie hip hop",
+      "track_count": 176
+    },
+    {
+      "genre": "j-pop",
+      "column": "genre_j-pop",
+      "track_count": 176
+    },
+    {
+      "genre": "north carolina hip hop",
+      "column": "genre_north carolina hip hop",
+      "track_count": 176
+    },
+    {
+      "genre": "traditional blues",
+      "column": "genre_traditional blues",
+      "track_count": 174
+    },
+    {
+      "genre": "australian pop",
+      "column": "genre_australian pop",
+      "track_count": 173
+    },
+    {
+      "genre": "japanese instrumental",
+      "column": "genre_japanese instrumental",
+      "track_count": 173
+    },
+    {
+      "genre": "latin worship",
+      "column": "genre_latin worship",
+      "track_count": 173
+    },
+    {
+      "genre": "underground power pop",
+      "column": "genre_underground power pop",
+      "track_count": 173
+    },
+    {
+      "genre": "bachata dominicana",
+      "column": "genre_bachata dominicana",
+      "track_count": 172
+    },
+    {
+      "genre": "afrobeats",
+      "column": "genre_afrobeats",
+      "track_count": 171
+    },
+    {
+      "genre": "alternative dance",
+      "column": "genre_alternative dance",
+      "track_count": 171
+    },
+    {
+      "genre": "meme rap",
+      "column": "genre_meme rap",
+      "track_count": 171
+    },
+    {
+      "genre": "shoegaze",
+      "column": "genre_shoegaze",
+      "track_count": 171
+    },
+    {
+      "genre": "sunshine pop",
+      "column": "genre_sunshine pop",
+      "track_count": 170
+    },
+    {
+      "genre": "victorian britain",
+      "column": "genre_victorian britain",
+      "track_count": 170
+    },
+    {
+      "genre": "dmv rap",
+      "column": "genre_dmv rap",
+      "track_count": 169
+    },
+    {
+      "genre": "rock cristiano",
+      "column": "genre_rock cristiano",
+      "track_count": 169
+    },
+    {
+      "genre": "british blues",
+      "column": "genre_british blues",
+      "track_count": 167
+    },
+    {
+      "genre": "space age pop",
+      "column": "genre_space age pop",
+      "track_count": 167
+    },
+    {
+      "genre": "classical organ",
+      "column": "genre_classical organ",
+      "track_count": 166
+    },
+    {
+      "genre": "complextro",
+      "column": "genre_complextro",
+      "track_count": 166
+    },
+    {
+      "genre": "ohio hip hop",
+      "column": "genre_ohio hip hop",
+      "track_count": 166
+    },
+    {
+      "genre": "blues",
+      "column": "genre_blues",
+      "track_count": 165
+    },
+    {
+      "genre": "power blues-rock",
+      "column": "genre_power blues-rock",
+      "track_count": 164
+    },
+    {
+      "genre": "punk cover",
+      "column": "genre_punk cover",
+      "track_count": 164
+    },
+    {
+      "genre": "chicago drill",
+      "column": "genre_chicago drill",
+      "track_count": 163
+    },
+    {
+      "genre": "chiptune",
+      "column": "genre_chiptune",
+      "track_count": 163
+    },
+    {
+      "genre": "future garage",
+      "column": "genre_future garage",
+      "track_count": 163
+    },
+    {
+      "genre": "minimal tech house",
+      "column": "genre_minimal tech house",
+      "track_count": 163
+    },
+    {
+      "genre": "music box",
+      "column": "genre_music box",
+      "track_count": 163
+    },
+    {
+      "genre": "pop nacional",
+      "column": "genre_pop nacional",
+      "track_count": 163
+    },
+    {
+      "genre": "21st century classical",
+      "column": "genre_21st century classical",
+      "track_count": 162
+    },
+    {
+      "genre": "modern bollywood",
+      "column": "genre_modern bollywood",
+      "track_count": 162
+    },
+    {
+      "genre": "reggae fusion",
+      "column": "genre_reggae fusion",
+      "track_count": 162
+    },
+    {
+      "genre": "soul blues",
+      "column": "genre_soul blues",
+      "track_count": 162
+    },
+    {
+      "genre": "spanish new wave",
+      "column": "genre_spanish new wave",
+      "track_count": 161
+    },
+    {
+      "genre": "chalga",
+      "column": "genre_chalga",
+      "track_count": 160
+    },
+    {
+      "genre": "uk contemporary r&b",
+      "column": "genre_uk contemporary r&b",
+      "track_count": 160
+    },
+    {
+      "genre": "british singer-songwriter",
+      "column": "genre_british singer-songwriter",
+      "track_count": 159
+    },
+    {
+      "genre": "dance-punk",
+      "column": "genre_dance-punk",
+      "track_count": 159
+    },
+    {
+      "genre": "psychedelic hip hop",
+      "column": "genre_psychedelic hip hop",
+      "track_count": 159
+    },
+    {
+      "genre": "puirt-a-beul",
+      "column": "genre_puirt-a-beul",
+      "track_count": 159
+    },
+    {
+      "genre": "texas blues",
+      "column": "genre_texas blues",
+      "track_count": 159
+    },
+    {
+      "genre": "post-hardcore",
+      "column": "genre_post-hardcore",
+      "track_count": 158
+    },
+    {
+      "genre": "nigerian pop",
+      "column": "genre_nigerian pop",
+      "track_count": 157
+    },
+    {
+      "genre": "jazz trombone",
+      "column": "genre_jazz trombone",
+      "track_count": 156
+    },
+    {
+      "genre": "pet calming",
+      "column": "genre_pet calming",
+      "track_count": 156
+    },
+    {
+      "genre": "brazilian hip hop",
+      "column": "genre_brazilian hip hop",
+      "track_count": 155
+    },
+    {
+      "genre": "pop emo",
+      "column": "genre_pop emo",
+      "track_count": 155
+    },
+    {
+      "genre": "zolo",
+      "column": "genre_zolo",
+      "track_count": 154
+    },
+    {
+      "genre": "bagpipe",
+      "column": "genre_bagpipe",
+      "track_count": 153
+    },
+    {
+      "genre": "microhouse",
+      "column": "genre_microhouse",
+      "track_count": 152
+    },
+    {
+      "genre": "stomp and whittle",
+      "column": "genre_stomp and whittle",
+      "track_count": 152
+    },
+    {
+      "genre": "dutch trance",
+      "column": "genre_dutch trance",
+      "track_count": 151
+    },
+    {
+      "genre": "noise pop",
+      "column": "genre_noise pop",
+      "track_count": 151
+    },
+    {
+      "genre": "instrumental rock",
+      "column": "genre_instrumental rock",
+      "track_count": 150
+    },
+    {
+      "genre": "jazz rap",
+      "column": "genre_jazz rap",
+      "track_count": 150
+    },
+    {
+      "genre": "classic italian pop",
+      "column": "genre_classic italian pop",
+      "track_count": 149
+    },
+    {
+      "genre": "indie poptimism",
+      "column": "genre_indie poptimism",
+      "track_count": 149
+    },
+    {
+      "genre": "piedmont blues",
+      "column": "genre_piedmont blues",
+      "track_count": 149
+    },
+    {
+      "genre": "deep comedy",
+      "column": "genre_deep comedy",
+      "track_count": 148
+    },
+    {
+      "genre": "deep disco house",
+      "column": "genre_deep disco house",
+      "track_count": 148
+    },
+    {
+      "genre": "alternative emo",
+      "column": "genre_alternative emo",
+      "track_count": 147
+    },
+    {
+      "genre": "bible",
+      "column": "genre_bible",
+      "track_count": 147
+    },
+    {
+      "genre": "canadian rock",
+      "column": "genre_canadian rock",
+      "track_count": 147
+    },
+    {
+      "genre": "italian adult pop",
+      "column": "genre_italian adult pop",
+      "track_count": 147
+    },
+    {
+      "genre": "new age",
+      "column": "genre_new age",
+      "track_count": 147
+    },
+    {
+      "genre": "zambian pop",
+      "column": "genre_zambian pop",
+      "track_count": 147
+    },
+    {
+      "genre": "musica popular colombiana",
+      "column": "genre_musica popular colombiana",
+      "track_count": 145
+    },
+    {
+      "genre": "surf music",
+      "column": "genre_surf music",
+      "track_count": 145
+    },
+    {
+      "genre": "namibian pop",
+      "column": "genre_namibian pop",
+      "track_count": 144
+    },
+    {
+      "genre": "modern reggae",
+      "column": "genre_modern reggae",
+      "track_count": 143
+    },
+    {
+      "genre": "taiwan pop",
+      "column": "genre_taiwan pop",
+      "track_count": 141
+    },
+    {
+      "genre": "timba",
+      "column": "genre_timba",
+      "track_count": 141
+    },
+    {
+      "genre": "classic sierreno",
+      "column": "genre_classic sierreno",
+      "track_count": 140
+    },
+    {
+      "genre": "indie soul",
+      "column": "genre_indie soul",
+      "track_count": 140
+    },
+    {
+      "genre": "christian hip hop",
+      "column": "genre_christian hip hop",
+      "track_count": 139
+    },
+    {
+      "genre": "operetta",
+      "column": "genre_operetta",
+      "track_count": 139
+    },
+    {
+      "genre": "hauntology",
+      "column": "genre_hauntology",
+      "track_count": 138
+    },
+    {
+      "genre": "new comedy",
+      "column": "genre_new comedy",
+      "track_count": 137
+    },
+    {
+      "genre": "uk dub",
+      "column": "genre_uk dub",
+      "track_count": 136
+    },
+    {
+      "genre": "classic peruvian pop",
+      "column": "genre_classic peruvian pop",
+      "track_count": 135
+    },
+    {
+      "genre": "folk-pop",
+      "column": "genre_folk-pop",
+      "track_count": 134
+    },
+    {
+      "genre": "hungarian hip hop",
+      "column": "genre_hungarian hip hop",
+      "track_count": 134
+    },
+    {
+      "genre": "instrumental bluegrass",
+      "column": "genre_instrumental bluegrass",
+      "track_count": 134
+    },
+    {
+      "genre": "chicago bop",
+      "column": "genre_chicago bop",
+      "track_count": 133
+    },
+    {
+      "genre": "jazz fusion",
+      "column": "genre_jazz fusion",
+      "track_count": 133
+    },
+    {
+      "genre": "lo-fi emo",
+      "column": "genre_lo-fi emo",
+      "track_count": 133
+    },
+    {
+      "genre": "mexican hip hop",
+      "column": "genre_mexican hip hop",
+      "track_count": 133
+    },
+    {
+      "genre": "metis fiddle",
+      "column": "genre_metis fiddle",
+      "track_count": 132
+    },
+    {
+      "genre": "post-disco",
+      "column": "genre_post-disco",
+      "track_count": 132
+    },
+    {
+      "genre": "zambian hip hop",
+      "column": "genre_zambian hip hop",
+      "track_count": 132
+    },
+    {
+      "genre": "classic hungarian pop",
+      "column": "genre_classic hungarian pop",
+      "track_count": 131
+    },
+    {
+      "genre": "indie anthem-folk",
+      "column": "genre_indie anthem-folk",
+      "track_count": 131
+    },
+    {
+      "genre": "magyar retro dance",
+      "column": "genre_magyar retro dance",
+      "track_count": 131
+    },
+    {
+      "genre": "pluggnb",
+      "column": "genre_pluggnb",
+      "track_count": 131
+    },
+    {
+      "genre": "british soul",
+      "column": "genre_british soul",
+      "track_count": 129
+    },
+    {
+      "genre": "minimalism",
+      "column": "genre_minimalism",
+      "track_count": 129
+    },
+    {
+      "genre": "westcoast flow",
+      "column": "genre_westcoast flow",
+      "track_count": 129
+    },
+    {
+      "genre": "american contemporary classical",
+      "column": "genre_american contemporary classical",
+      "track_count": 128
+    },
+    {
+      "genre": "canadian indie",
+      "column": "genre_canadian indie",
+      "track_count": 128
+    },
+    {
+      "genre": "classic soundtrack",
+      "column": "genre_classic soundtrack",
+      "track_count": 128
+    },
+    {
+      "genre": "french soundtrack",
+      "column": "genre_french soundtrack",
+      "track_count": 127
+    },
+    {
+      "genre": "post-punk",
+      "column": "genre_post-punk",
+      "track_count": 127
+    },
+    {
+      "genre": "shush",
+      "column": "genre_shush",
+      "track_count": 127
+    },
+    {
+      "genre": "visual kei",
+      "column": "genre_visual kei",
+      "track_count": 127
+    },
+    {
+      "genre": "austin singer-songwriter",
+      "column": "genre_austin singer-songwriter",
+      "track_count": 126
+    },
+    {
+      "genre": "beatlesque",
+      "column": "genre_beatlesque",
+      "track_count": 126
+    },
+    {
+      "genre": "buffalo hip hop",
+      "column": "genre_buffalo hip hop",
+      "track_count": 126
+    },
+    {
+      "genre": "cantautora mexicana",
+      "column": "genre_cantautora mexicana",
+      "track_count": 126
+    },
+    {
+      "genre": "english renaissance",
+      "column": "genre_english renaissance",
+      "track_count": 126
+    },
+    {
+      "genre": "speedrun",
+      "column": "genre_speedrun",
+      "track_count": 126
+    },
+    {
+      "genre": "vienna indie",
+      "column": "genre_vienna indie",
+      "track_count": 126
+    },
+    {
+      "genre": "classical drill",
+      "column": "genre_classical drill",
+      "track_count": 125
+    },
+    {
+      "genre": "dark trap",
+      "column": "genre_dark trap",
+      "track_count": 125
+    },
+    {
+      "genre": "south african gospel",
+      "column": "genre_south african gospel",
+      "track_count": 125
+    },
+    {
+      "genre": "uk worship",
+      "column": "genre_uk worship",
+      "track_count": 125
+    },
+    {
+      "genre": "abstract hip hop",
+      "column": "genre_abstract hip hop",
+      "track_count": 124
+    },
+    {
+      "genre": "electropop",
+      "column": "genre_electropop",
+      "track_count": 124
+    },
+    {
+      "genre": "peruvian indie",
+      "column": "genre_peruvian indie",
+      "track_count": 124
+    },
+    {
+      "genre": "australian children's music",
+      "column": "genre_australian children's music",
+      "track_count": 123
+    },
+    {
+      "genre": "ballroom",
+      "column": "genre_ballroom",
+      "track_count": 123
+    },
+    {
+      "genre": "bboy",
+      "column": "genre_bboy",
+      "track_count": 123
+    },
+    {
+      "genre": "boy band",
+      "column": "genre_boy band",
+      "track_count": 123
+    },
+    {
+      "genre": "countrygaze",
+      "column": "genre_countrygaze",
+      "track_count": 123
+    },
+    {
+      "genre": "anti-folk",
+      "column": "genre_anti-folk",
+      "track_count": 122
+    },
+    {
+      "genre": "classic colombian pop",
+      "column": "genre_classic colombian pop",
+      "track_count": 122
+    },
+    {
+      "genre": "dark wave",
+      "column": "genre_dark wave",
+      "track_count": 122
+    },
+    {
+      "genre": "ethereal wave",
+      "column": "genre_ethereal wave",
+      "track_count": 122
+    },
+    {
+      "genre": "cumbia villera",
+      "column": "genre_cumbia villera",
+      "track_count": 121
+    },
+    {
+      "genre": "girl group",
+      "column": "genre_girl group",
+      "track_count": 121
+    },
+    {
+      "genre": "shimmer pop",
+      "column": "genre_shimmer pop",
+      "track_count": 121
+    },
+    {
+      "genre": "tango",
+      "column": "genre_tango",
+      "track_count": 120
+    },
+    {
+      "genre": "vallenato",
+      "column": "genre_vallenato",
+      "track_count": 120
+    },
+    {
+      "genre": "anime lo-fi",
+      "column": "genre_anime lo-fi",
+      "track_count": 118
+    },
+    {
+      "genre": "canadian blues",
+      "column": "genre_canadian blues",
+      "track_count": 118
+    },
+    {
+      "genre": "classical piano",
+      "column": "genre_classical piano",
+      "track_count": 118
+    },
+    {
+      "genre": "corridos tumbados",
+      "column": "genre_corridos tumbados",
+      "track_count": 118
+    },
+    {
+      "genre": "gothic rock",
+      "column": "genre_gothic rock",
+      "track_count": 118
+    },
+    {
+      "genre": "japanese classical",
+      "column": "genre_japanese classical",
+      "track_count": 118
+    },
+    {
+      "genre": "madrigal",
+      "column": "genre_madrigal",
+      "track_count": 118
+    },
+    {
+      "genre": "praise",
+      "column": "genre_praise",
+      "track_count": 118
+    },
+    {
+      "genre": "bluegrass",
+      "column": "genre_bluegrass",
+      "track_count": 117
+    },
+    {
+      "genre": "celtic punk",
+      "column": "genre_celtic punk",
+      "track_count": 117
+    },
+    {
+      "genre": "show tunes",
+      "column": "genre_show tunes",
+      "track_count": 117
+    },
+    {
+      "genre": "world worship",
+      "column": "genre_world worship",
+      "track_count": 117
+    },
+    {
+      "genre": "brazilian gospel",
+      "column": "genre_brazilian gospel",
+      "track_count": 116
+    },
+    {
+      "genre": "german techno",
+      "column": "genre_german techno",
+      "track_count": 116
+    },
+    {
+      "genre": "acid house",
+      "column": "genre_acid house",
+      "track_count": 115
+    },
+    {
+      "genre": "fogo pentecostal",
+      "column": "genre_fogo pentecostal",
+      "track_count": 115
+    },
+    {
+      "genre": "neo-psychedelic",
+      "column": "genre_neo-psychedelic",
+      "track_count": 115
+    },
+    {
+      "genre": "scam rap",
+      "column": "genre_scam rap",
+      "track_count": 115
+    },
+    {
+      "genre": "athens indie",
+      "column": "genre_athens indie",
+      "track_count": 114
+    },
+    {
+      "genre": "deep christian rock",
+      "column": "genre_deep christian rock",
+      "track_count": 114
+    },
+    {
+      "genre": "electra",
+      "column": "genre_electra",
+      "track_count": 114
+    },
+    {
+      "genre": "sad sierreno",
+      "column": "genre_sad sierreno",
+      "track_count": 114
+    },
+    {
+      "genre": "shamanic",
+      "column": "genre_shamanic",
+      "track_count": 114
+    },
+    {
+      "genre": "sigilkore",
+      "column": "genre_sigilkore",
+      "track_count": 114
+    },
+    {
+      "genre": "tecnobanda",
+      "column": "genre_tecnobanda",
+      "track_count": 114
+    },
+    {
+      "genre": "electronic trap",
+      "column": "genre_electronic trap",
+      "track_count": 113
+    },
+    {
+      "genre": "garage rock",
+      "column": "genre_garage rock",
+      "track_count": 113
+    },
+    {
+      "genre": "indie jazz",
+      "column": "genre_indie jazz",
+      "track_count": 113
+    },
+    {
+      "genre": "indie pop rap",
+      "column": "genre_indie pop rap",
+      "track_count": 113
+    },
+    {
+      "genre": "singer-songwriter pop",
+      "column": "genre_singer-songwriter pop",
+      "track_count": 113
+    },
+    {
+      "genre": "swedish pop",
+      "column": "genre_swedish pop",
+      "track_count": 113
+    },
+    {
+      "genre": "acoustic cover",
+      "column": "genre_acoustic cover",
+      "track_count": 112
+    },
+    {
+      "genre": "chicago indie",
+      "column": "genre_chicago indie",
+      "track_count": 112
+    },
+    {
+      "genre": "indie punk",
+      "column": "genre_indie punk",
+      "track_count": 112
+    },
+    {
+      "genre": "instrumental hip hop",
+      "column": "genre_instrumental hip hop",
+      "track_count": 112
+    },
+    {
+      "genre": "j-poprock",
+      "column": "genre_j-poprock",
+      "track_count": 112
+    },
+    {
+      "genre": "la indie",
+      "column": "genre_la indie",
+      "track_count": 112
+    },
+    {
+      "genre": "musica bajacaliforniana",
+      "column": "genre_musica bajacaliforniana",
+      "track_count": 112
+    },
+    {
+      "genre": "orgcore",
+      "column": "genre_orgcore",
+      "track_count": 112
+    },
+    {
+      "genre": "bass house",
+      "column": "genre_bass house",
+      "track_count": 111
+    },
+    {
+      "genre": "chillhop",
+      "column": "genre_chillhop",
+      "track_count": 111
+    },
+    {
+      "genre": "cosmic american",
+      "column": "genre_cosmic american",
+      "track_count": 111
+    },
+    {
+      "genre": "jazz trio",
+      "column": "genre_jazz trio",
+      "track_count": 111
+    },
+    {
+      "genre": "lounge house",
+      "column": "genre_lounge house",
+      "track_count": 111
+    },
+    {
+      "genre": "nightrun",
+      "column": "genre_nightrun",
+      "track_count": 111
+    },
+    {
+      "genre": "spirituals",
+      "column": "genre_spirituals",
+      "track_count": 111
+    },
+    {
+      "genre": "delta blues",
+      "column": "genre_delta blues",
+      "track_count": 110
+    },
+    {
+      "genre": "rosary",
+      "column": "genre_rosary",
+      "track_count": 110
+    },
+    {
+      "genre": "salsa cubana",
+      "column": "genre_salsa cubana",
+      "track_count": 110
+    },
+    {
+      "genre": "uk hip hop",
+      "column": "genre_uk hip hop",
+      "track_count": 110
+    },
+    {
+      "genre": "brazilian ccm",
+      "column": "genre_brazilian ccm",
+      "track_count": 109
+    },
+    {
+      "genre": "dream pop",
+      "column": "genre_dream pop",
+      "track_count": 109
+    },
+    {
+      "genre": "modern dream pop",
+      "column": "genre_modern dream pop",
+      "track_count": 109
+    },
+    {
+      "genre": "orquesta tipica",
+      "column": "genre_orquesta tipica",
+      "track_count": 109
+    },
+    {
+      "genre": "roots rock",
+      "column": "genre_roots rock",
+      "track_count": 109
+    },
+    {
+      "genre": "schranz",
+      "column": "genre_schranz",
+      "track_count": 109
+    },
+    {
+      "genre": "south african pop",
+      "column": "genre_south african pop",
+      "track_count": 109
+    },
+    {
+      "genre": "vintage tango",
+      "column": "genre_vintage tango",
+      "track_count": 109
+    },
+    {
+      "genre": "australian rock",
+      "column": "genre_australian rock",
+      "track_count": 108
+    },
+    {
+      "genre": "baltimore indie",
+      "column": "genre_baltimore indie",
+      "track_count": 108
+    },
+    {
+      "genre": "plugg",
+      "column": "genre_plugg",
+      "track_count": 106
+    },
+    {
+      "genre": "romantico",
+      "column": "genre_romantico",
+      "track_count": 106
+    },
+    {
+      "genre": "swedish melodic rock",
+      "column": "genre_swedish melodic rock",
+      "track_count": 106
+    },
+    {
+      "genre": "deep talent show",
+      "column": "genre_deep talent show",
+      "track_count": 105
+    },
+    {
+      "genre": "jazz boom bap",
+      "column": "genre_jazz boom bap",
+      "track_count": 105
+    },
+    {
+      "genre": "new orleans jazz",
+      "column": "genre_new orleans jazz",
+      "track_count": 105
+    },
+    {
+      "genre": "orchestra",
+      "column": "genre_orchestra",
+      "track_count": 105
+    },
+    {
+      "genre": "american folk revival",
+      "column": "genre_american folk revival",
+      "track_count": 104
+    },
+    {
+      "genre": "austrian jazz",
+      "column": "genre_austrian jazz",
+      "track_count": 104
+    },
+    {
+      "genre": "folk punk",
+      "column": "genre_folk punk",
+      "track_count": 104
+    },
+    {
+      "genre": "grime",
+      "column": "genre_grime",
+      "track_count": 104
+    },
+    {
+      "genre": "j-rock",
+      "column": "genre_j-rock",
+      "track_count": 104
+    },
+    {
+      "genre": "tin pan alley",
+      "column": "genre_tin pan alley",
+      "track_count": 104
+    },
+    {
+      "genre": "brain waves",
+      "column": "genre_brain waves",
+      "track_count": 103
+    },
+    {
+      "genre": "christian metal",
+      "column": "genre_christian metal",
+      "track_count": 103
+    },
+    {
+      "genre": "forro de favela",
+      "column": "genre_forro de favela",
+      "track_count": 103
+    },
+    {
+      "genre": "french indietronica",
+      "column": "genre_french indietronica",
+      "track_count": 103
+    },
+    {
+      "genre": "underground rap",
+      "column": "genre_underground rap",
+      "track_count": 103
+    },
+    {
+      "genre": "canadian contemporary country",
+      "column": "genre_canadian contemporary country",
+      "track_count": 102
+    },
+    {
+      "genre": "german opera",
+      "column": "genre_german opera",
+      "track_count": 102
+    },
+    {
+      "genre": "kayokyoku",
+      "column": "genre_kayokyoku",
+      "track_count": 102
+    },
+    {
+      "genre": "sertanejo tradicional",
+      "column": "genre_sertanejo tradicional",
+      "track_count": 102
+    },
+    {
+      "genre": "vaqueiro",
+      "column": "genre_vaqueiro",
+      "track_count": 102
+    },
+    {
+      "genre": "country rap",
+      "column": "genre_country rap",
+      "track_count": 101
+    },
+    {
+      "genre": "covertrance",
+      "column": "genre_covertrance",
+      "track_count": 101
+    },
+    {
+      "genre": "elephant 6",
+      "column": "genre_elephant 6",
+      "track_count": 101
+    },
+    {
+      "genre": "uk post-punk",
+      "column": "genre_uk post-punk",
+      "track_count": 101
+    },
+    {
+      "genre": "classic thai pop",
+      "column": "genre_classic thai pop",
+      "track_count": 100
+    },
+    {
+      "genre": "cumbia",
+      "column": "genre_cumbia",
+      "track_count": 100
+    },
+    {
+      "genre": "spanish hip hop",
+      "column": "genre_spanish hip hop",
+      "track_count": 100
+    },
+    {
+      "genre": "trova mexicana",
+      "column": "genre_trova mexicana",
+      "track_count": 100
+    },
+    {
+      "genre": "drum and bass",
+      "column": "genre_drum and bass",
+      "track_count": 99
+    },
+    {
+      "genre": "electro swing",
+      "column": "genre_electro swing",
+      "track_count": 99
+    },
+    {
+      "genre": "modern power pop",
+      "column": "genre_modern power pop",
+      "track_count": 99
+    },
+    {
+      "genre": "pixie",
+      "column": "genre_pixie",
+      "track_count": 99
+    },
+    {
+      "genre": "rap cristiano",
+      "column": "genre_rap cristiano",
+      "track_count": 99
+    },
+    {
+      "genre": "sgija",
+      "column": "genre_sgija",
+      "track_count": 99
+    },
+    {
+      "genre": "afrikaans",
+      "column": "genre_afrikaans",
+      "track_count": 98
+    },
+    {
+      "genre": "arrocha",
+      "column": "genre_arrocha",
+      "track_count": 98
+    },
+    {
+      "genre": "kirtan",
+      "column": "genre_kirtan",
+      "track_count": 98
+    },
+    {
+      "genre": "memphis soul",
+      "column": "genre_memphis soul",
+      "track_count": 98
+    },
+    {
+      "genre": "neoclassical darkwave",
+      "column": "genre_neoclassical darkwave",
+      "track_count": 98
+    },
+    {
+      "genre": "djent",
+      "column": "genre_djent",
+      "track_count": 97
+    },
+    {
+      "genre": "early avant garde",
+      "column": "genre_early avant garde",
+      "track_count": 97
+    },
+    {
+      "genre": "horror synth",
+      "column": "genre_horror synth",
+      "track_count": 97
+    },
+    {
+      "genre": "indie quebecois",
+      "column": "genre_indie quebecois",
+      "track_count": 97
+    },
+    {
+      "genre": "jungle",
+      "column": "genre_jungle",
+      "track_count": 97
+    },
+    {
+      "genre": "variete francaise",
+      "column": "genre_variete francaise",
+      "track_count": 97
+    },
+    {
+      "genre": "irish pop",
+      "column": "genre_irish pop",
+      "track_count": 96
+    },
+    {
+      "genre": "jazz vibraphone",
+      "column": "genre_jazz vibraphone",
+      "track_count": 96
+    },
+    {
+      "genre": "korean pop",
+      "column": "genre_korean pop",
+      "track_count": 96
+    },
+    {
+      "genre": "mexican rock-and-roll",
+      "column": "genre_mexican rock-and-roll",
+      "track_count": 95
+    },
+    {
+      "genre": "bedroom pop",
+      "column": "genre_bedroom pop",
+      "track_count": 94
+    },
+    {
+      "genre": "bossbeat",
+      "column": "genre_bossbeat",
+      "track_count": 94
+    },
+    {
+      "genre": "bubblegrunge",
+      "column": "genre_bubblegrunge",
+      "track_count": 94
+    },
+    {
+      "genre": "diy emo",
+      "column": "genre_diy emo",
+      "track_count": 94
+    },
+    {
+      "genre": "doo-wop",
+      "column": "genre_doo-wop",
+      "track_count": 94
+    },
+    {
+      "genre": "british alternative rock",
+      "column": "genre_british alternative rock",
+      "track_count": 93
+    },
+    {
+      "genre": "chamber choir",
+      "column": "genre_chamber choir",
+      "track_count": 93
+    },
+    {
+      "genre": "chinese indie",
+      "column": "genre_chinese indie",
+      "track_count": 93
+    },
+    {
+      "genre": "dubstep",
+      "column": "genre_dubstep",
+      "track_count": 93
+    },
+    {
+      "genre": "emo rap",
+      "column": "genre_emo rap",
+      "track_count": 93
+    },
+    {
+      "genre": "post-disco soul",
+      "column": "genre_post-disco soul",
+      "track_count": 93
+    },
+    {
+      "genre": "progressive metal",
+      "column": "genre_progressive metal",
+      "track_count": 93
+    },
+    {
+      "genre": "puerto rican pop",
+      "column": "genre_puerto rican pop",
+      "track_count": 93
+    },
+    {
+      "genre": "rawstyle",
+      "column": "genre_rawstyle",
+      "track_count": 93
+    },
+    {
+      "genre": "swedish contemporary classical",
+      "column": "genre_swedish contemporary classical",
+      "track_count": 93
+    },
+    {
+      "genre": "experimental guitar",
+      "column": "genre_experimental guitar",
+      "track_count": 92
+    },
+    {
+      "genre": "korean classical performance",
+      "column": "genre_korean classical performance",
+      "track_count": 92
+    },
+    {
+      "genre": "oakland hip hop",
+      "column": "genre_oakland hip hop",
+      "track_count": 92
+    },
+    {
+      "genre": "chill lounge",
+      "column": "genre_chill lounge",
+      "track_count": 91
+    },
+    {
+      "genre": "classic malaysian pop",
+      "column": "genre_classic malaysian pop",
+      "track_count": 91
+    },
+    {
+      "genre": "instrumental surf",
+      "column": "genre_instrumental surf",
+      "track_count": 91
+    },
+    {
+      "genre": "irish dance",
+      "column": "genre_irish dance",
+      "track_count": 91
+    },
+    {
+      "genre": "rap napoletano",
+      "column": "genre_rap napoletano",
+      "track_count": 91
+    },
+    {
+      "genre": "reggaeton cristiano",
+      "column": "genre_reggaeton cristiano",
+      "track_count": 91
+    },
+    {
+      "genre": "slayer",
+      "column": "genre_slayer",
+      "track_count": 91
+    },
+    {
+      "genre": "alternative roots rock",
+      "column": "genre_alternative roots rock",
+      "track_count": 90
+    },
+    {
+      "genre": "drumless hip hop",
+      "column": "genre_drumless hip hop",
+      "track_count": 90
+    },
+    {
+      "genre": "lo-fi indie",
+      "column": "genre_lo-fi indie",
+      "track_count": 90
+    },
+    {
+      "genre": "norwegian pop rap",
+      "column": "genre_norwegian pop rap",
+      "track_count": 90
+    },
+    {
+      "genre": "trap beats",
+      "column": "genre_trap beats",
+      "track_count": 90
+    },
+    {
+      "genre": "background jazz",
+      "column": "genre_background jazz",
+      "track_count": 89
+    },
+    {
+      "genre": "big beat",
+      "column": "genre_big beat",
+      "track_count": 89
+    },
+    {
+      "genre": "comic",
+      "column": "genre_comic",
+      "track_count": 89
+    },
+    {
+      "genre": "europop",
+      "column": "genre_europop",
+      "track_count": 89
+    },
+    {
+      "genre": "sacramento hip hop",
+      "column": "genre_sacramento hip hop",
+      "track_count": 89
+    },
+    {
+      "genre": "viral trap",
+      "column": "genre_viral trap",
+      "track_count": 89
+    },
+    {
+      "genre": "wrestling",
+      "column": "genre_wrestling",
+      "track_count": 89
+    },
+    {
+      "genre": "backing track",
+      "column": "genre_backing track",
+      "track_count": 88
+    },
+    {
+      "genre": "boston hip hop",
+      "column": "genre_boston hip hop",
+      "track_count": 88
+    },
+    {
+      "genre": "canadian soundtrack",
+      "column": "genre_canadian soundtrack",
+      "track_count": 88
+    },
+    {
+      "genre": "channel pop",
+      "column": "genre_channel pop",
+      "track_count": 88
+    },
+    {
+      "genre": "christmas instrumental",
+      "column": "genre_christmas instrumental",
+      "track_count": 88
+    },
+    {
+      "genre": "flute rock",
+      "column": "genre_flute rock",
+      "track_count": 88
+    },
+    {
+      "genre": "nu gaze",
+      "column": "genre_nu gaze",
+      "track_count": 88
+    },
+    {
+      "genre": "sped up",
+      "column": "genre_sped up",
+      "track_count": 88
+    },
+    {
+      "genre": "traditional rockabilly",
+      "column": "genre_traditional rockabilly",
+      "track_count": 88
+    },
+    {
+      "genre": "nashville indie",
+      "column": "genre_nashville indie",
+      "track_count": 87
+    },
+    {
+      "genre": "tribute",
+      "column": "genre_tribute",
+      "track_count": 87
+    },
+    {
+      "genre": "ambient idm",
+      "column": "genre_ambient idm",
+      "track_count": 86
+    },
+    {
+      "genre": "anime rap",
+      "column": "genre_anime rap",
+      "track_count": 86
+    },
+    {
+      "genre": "australian americana",
+      "column": "genre_australian americana",
+      "track_count": 86
+    },
+    {
+      "genre": "breakcore",
+      "column": "genre_breakcore",
+      "track_count": 86
+    },
+    {
+      "genre": "contemporary gospel",
+      "column": "genre_contemporary gospel",
+      "track_count": 86
+    },
+    {
+      "genre": "cuarteto",
+      "column": "genre_cuarteto",
+      "track_count": 86
+    },
+    {
+      "genre": "free jazz",
+      "column": "genre_free jazz",
+      "track_count": 86
+    },
+    {
+      "genre": "german trap",
+      "column": "genre_german trap",
+      "track_count": 86
+    },
+    {
+      "genre": "gregorian chant",
+      "column": "genre_gregorian chant",
+      "track_count": 86
+    },
+    {
+      "genre": "la pop",
+      "column": "genre_la pop",
+      "track_count": 86
+    },
+    {
+      "genre": "movie tunes",
+      "column": "genre_movie tunes",
+      "track_count": 86
+    },
+    {
+      "genre": "norwegian rock",
+      "column": "genre_norwegian rock",
+      "track_count": 86
+    },
+    {
+      "genre": "nuevo folklore mexicano",
+      "column": "genre_nuevo folklore mexicano",
+      "track_count": 86
+    },
+    {
+      "genre": "phonk",
+      "column": "genre_phonk",
+      "track_count": 86
+    },
+    {
+      "genre": "piano blues",
+      "column": "genre_piano blues",
+      "track_count": 86
+    },
+    {
+      "genre": "pop soul",
+      "column": "genre_pop soul",
+      "track_count": 86
+    },
+    {
+      "genre": "queer country",
+      "column": "genre_queer country",
+      "track_count": 86
+    },
+    {
+      "genre": "rap maroc",
+      "column": "genre_rap maroc",
+      "track_count": 86
+    },
+    {
+      "genre": "alternative pop",
+      "column": "genre_alternative pop",
+      "track_count": 85
+    },
+    {
+      "genre": "classic greek pop",
+      "column": "genre_classic greek pop",
+      "track_count": 85
+    },
+    {
+      "genre": "hardcore punk",
+      "column": "genre_hardcore punk",
+      "track_count": 85
+    },
+    {
+      "genre": "pop urbaine",
+      "column": "genre_pop urbaine",
+      "track_count": 85
+    },
+    {
+      "genre": "south african house",
+      "column": "genre_south african house",
+      "track_count": 85
+    },
+    {
+      "genre": "weirdcore",
+      "column": "genre_weirdcore",
+      "track_count": 85
+    },
+    {
+      "genre": "banjo",
+      "column": "genre_banjo",
+      "track_count": 84
+    },
+    {
+      "genre": "christian trap",
+      "column": "genre_christian trap",
+      "track_count": 84
+    },
+    {
+      "genre": "escape room",
+      "column": "genre_escape room",
+      "track_count": 84
+    },
+    {
+      "genre": "lo-fi cover",
+      "column": "genre_lo-fi cover",
+      "track_count": 84
+    },
+    {
+      "genre": "tech house",
+      "column": "genre_tech house",
+      "track_count": 84
+    },
+    {
+      "genre": "tropical house",
+      "column": "genre_tropical house",
+      "track_count": 84
+    },
+    {
+      "genre": "agronejo",
+      "column": "genre_agronejo",
+      "track_count": 83
+    },
+    {
+      "genre": "canadian singer-songwriter",
+      "column": "genre_canadian singer-songwriter",
+      "track_count": 83
+    },
+    {
+      "genre": "classic garage rock",
+      "column": "genre_classic garage rock",
+      "track_count": 83
+    },
+    {
+      "genre": "german cloud rap",
+      "column": "genre_german cloud rap",
+      "track_count": 83
+    },
+    {
+      "genre": "man's orchestra",
+      "column": "genre_man's orchestra",
+      "track_count": 83
+    },
+    {
+      "genre": "metalcore",
+      "column": "genre_metalcore",
+      "track_count": 83
+    },
+    {
+      "genre": "russian classical piano",
+      "column": "genre_russian classical piano",
+      "track_count": 83
+    },
+    {
+      "genre": "spanish rock",
+      "column": "genre_spanish rock",
+      "track_count": 83
+    },
+    {
+      "genre": "uk house",
+      "column": "genre_uk house",
+      "track_count": 83
+    },
+    {
+      "genre": "float house",
+      "column": "genre_float house",
+      "track_count": 82
+    },
+    {
+      "genre": "nederpop",
+      "column": "genre_nederpop",
+      "track_count": 82
+    },
+    {
+      "genre": "polka",
+      "column": "genre_polka",
+      "track_count": 82
+    },
+    {
+      "genre": "protopunk",
+      "column": "genre_protopunk",
+      "track_count": 82
+    },
+    {
+      "genre": "sophisti-pop",
+      "column": "genre_sophisti-pop",
+      "track_count": 82
+    },
+    {
+      "genre": "amapiano",
+      "column": "genre_amapiano",
+      "track_count": 81
+    },
+    {
+      "genre": "anime phonk",
+      "column": "genre_anime phonk",
+      "track_count": 81
+    },
+    {
+      "genre": "bongo flava",
+      "column": "genre_bongo flava",
+      "track_count": 81
+    },
+    {
+      "genre": "corridos clasicos",
+      "column": "genre_corridos clasicos",
+      "track_count": 81
+    },
+    {
+      "genre": "detroit rock",
+      "column": "genre_detroit rock",
+      "track_count": 81
+    },
+    {
+      "genre": "icelandic pop",
+      "column": "genre_icelandic pop",
+      "track_count": 81
+    },
+    {
+      "genre": "progressive post-hardcore",
+      "column": "genre_progressive post-hardcore",
+      "track_count": 81
+    },
+    {
+      "genre": "relaxative",
+      "column": "genre_relaxative",
+      "track_count": 81
+    },
+    {
+      "genre": "afropop",
+      "column": "genre_afropop",
+      "track_count": 80
+    },
+    {
+      "genre": "australian dance",
+      "column": "genre_australian dance",
+      "track_count": 80
+    },
+    {
+      "genre": "classical tenor",
+      "column": "genre_classical tenor",
+      "track_count": 80
+    },
+    {
+      "genre": "dark rock",
+      "column": "genre_dark rock",
+      "track_count": 80
+    },
+    {
+      "genre": "neo-rockabilly",
+      "column": "genre_neo-rockabilly",
+      "track_count": 80
+    },
+    {
+      "genre": "redneck",
+      "column": "genre_redneck",
+      "track_count": 80
+    },
+    {
+      "genre": "tanzanian hip hop",
+      "column": "genre_tanzanian hip hop",
+      "track_count": 80
+    },
+    {
+      "genre": "texas latin rap",
+      "column": "genre_texas latin rap",
+      "track_count": 80
+    },
+    {
+      "genre": "azontobeats",
+      "column": "genre_azontobeats",
+      "track_count": 79
+    },
+    {
+      "genre": "canadian metal",
+      "column": "genre_canadian metal",
+      "track_count": 79
+    },
+    {
+      "genre": "contemporary vocal jazz",
+      "column": "genre_contemporary vocal jazz",
+      "track_count": 79
+    },
+    {
+      "genre": "japanese heavy metal",
+      "column": "genre_japanese heavy metal",
+      "track_count": 79
+    },
+    {
+      "genre": "latin soundtrack",
+      "column": "genre_latin soundtrack",
+      "track_count": 79
+    },
+    {
+      "genre": "light music",
+      "column": "genre_light music",
+      "track_count": 78
+    },
+    {
+      "genre": "musica chihuahuense",
+      "column": "genre_musica chihuahuense",
+      "track_count": 78
+    },
+    {
+      "genre": "rhythm and blues",
+      "column": "genre_rhythm and blues",
+      "track_count": 78
+    },
+    {
+      "genre": "ska punk",
+      "column": "genre_ska punk",
+      "track_count": 78
+    },
+    {
+      "genre": "sound effects",
+      "column": "genre_sound effects",
+      "track_count": 78
+    },
+    {
+      "genre": "alabama rap",
+      "column": "genre_alabama rap",
+      "track_count": 77
+    },
+    {
+      "genre": "bgm",
+      "column": "genre_bgm",
+      "track_count": 77
+    },
+    {
+      "genre": "bolero mexicano",
+      "column": "genre_bolero mexicano",
+      "track_count": 77
+    },
+    {
+      "genre": "dreamo",
+      "column": "genre_dreamo",
+      "track_count": 77
+    },
+    {
+      "genre": "french indie pop",
+      "column": "genre_french indie pop",
+      "track_count": 77
+    },
+    {
+      "genre": "indiecoustica",
+      "column": "genre_indiecoustica",
+      "track_count": 77
+    },
+    {
+      "genre": "italian alternative",
+      "column": "genre_italian alternative",
+      "track_count": 77
+    },
+    {
+      "genre": "merseybeat",
+      "column": "genre_merseybeat",
+      "track_count": 77
+    },
+    {
+      "genre": "nu jazz",
+      "column": "genre_nu jazz",
+      "track_count": 77
+    },
+    {
+      "genre": "trop rock",
+      "column": "genre_trop rock",
+      "track_count": 77
+    },
+    {
+      "genre": "vintage chinese pop",
+      "column": "genre_vintage chinese pop",
+      "track_count": 77
+    },
+    {
+      "genre": "western americana",
+      "column": "genre_western americana",
+      "track_count": 77
+    },
+    {
+      "genre": "cante flamenco",
+      "column": "genre_cante flamenco",
+      "track_count": 76
+    },
+    {
+      "genre": "deep chill",
+      "column": "genre_deep chill",
+      "track_count": 76
+    },
+    {
+      "genre": "fourth world",
+      "column": "genre_fourth world",
+      "track_count": 76
+    },
+    {
+      "genre": "gothic metal",
+      "column": "genre_gothic metal",
+      "track_count": 76
+    },
+    {
+      "genre": "italian hip hop",
+      "column": "genre_italian hip hop",
+      "track_count": 76
+    },
+    {
+      "genre": "jersey club",
+      "column": "genre_jersey club",
+      "track_count": 76
+    },
+    {
+      "genre": "midwest americana",
+      "column": "genre_midwest americana",
+      "track_count": 76
+    },
+    {
+      "genre": "psychobilly",
+      "column": "genre_psychobilly",
+      "track_count": 76
+    },
+    {
+      "genre": "twee pop",
+      "column": "genre_twee pop",
+      "track_count": 76
+    },
+    {
+      "genre": "bay area hip hop",
+      "column": "genre_bay area hip hop",
+      "track_count": 75
+    },
+    {
+      "genre": "canadian folk",
+      "column": "genre_canadian folk",
+      "track_count": 75
+    },
+    {
+      "genre": "ghanaian gospel",
+      "column": "genre_ghanaian gospel",
+      "track_count": 75
+    },
+    {
+      "genre": "irish country",
+      "column": "genre_irish country",
+      "track_count": 75
+    },
+    {
+      "genre": "peruvian rock",
+      "column": "genre_peruvian rock",
+      "track_count": 75
+    },
+    {
+      "genre": "power metal",
+      "column": "genre_power metal",
+      "track_count": 75
+    },
+    {
+      "genre": "vintage french electronic",
+      "column": "genre_vintage french electronic",
+      "track_count": 75
+    },
+    {
+      "genre": "writing",
+      "column": "genre_writing",
+      "track_count": 75
+    },
+    {
+      "genre": "5th wave emo",
+      "column": "genre_5th wave emo",
+      "track_count": 74
+    },
+    {
+      "genre": "ambient",
+      "column": "genre_ambient",
+      "track_count": 74
+    },
+    {
+      "genre": "anime rock",
+      "column": "genre_anime rock",
+      "track_count": 74
+    },
+    {
+      "genre": "bakersfield sound",
+      "column": "genre_bakersfield sound",
+      "track_count": 74
+    },
+    {
+      "genre": "battle rap",
+      "column": "genre_battle rap",
+      "track_count": 74
+    },
+    {
+      "genre": "deep latin christian",
+      "column": "genre_deep latin christian",
+      "track_count": 74
+    },
+    {
+      "genre": "experimental rock",
+      "column": "genre_experimental rock",
+      "track_count": 74
+    },
+    {
+      "genre": "ghanaian hip hop",
+      "column": "genre_ghanaian hip hop",
+      "track_count": 74
+    },
+    {
+      "genre": "modern indie pop",
+      "column": "genre_modern indie pop",
+      "track_count": 74
+    },
+    {
+      "genre": "norsk lovsang",
+      "column": "genre_norsk lovsang",
+      "track_count": 74
+    },
+    {
+      "genre": "psychedelic folk",
+      "column": "genre_psychedelic folk",
+      "track_count": 74
+    },
+    {
+      "genre": "rumba",
+      "column": "genre_rumba",
+      "track_count": 74
+    },
+    {
+      "genre": "russian pop",
+      "column": "genre_russian pop",
+      "track_count": 74
+    },
+    {
+      "genre": "alternative americana",
+      "column": "genre_alternative americana",
+      "track_count": 73
+    },
+    {
+      "genre": "erotic product",
+      "column": "genre_erotic product",
+      "track_count": 73
+    },
+    {
+      "genre": "italian folk",
+      "column": "genre_italian folk",
+      "track_count": 73
+    },
+    {
+      "genre": "japanese metalcore",
+      "column": "genre_japanese metalcore",
+      "track_count": 73
+    },
+    {
+      "genre": "norwegian gospel",
+      "column": "genre_norwegian gospel",
+      "track_count": 73
+    },
+    {
+      "genre": "zhongguo feng",
+      "column": "genre_zhongguo feng",
+      "track_count": 73
+    },
+    {
+      "genre": "classic swedish pop",
+      "column": "genre_classic swedish pop",
+      "track_count": 72
+    },
+    {
+      "genre": "halifax indie",
+      "column": "genre_halifax indie",
+      "track_count": 72
+    },
+    {
+      "genre": "instrumental post-rock",
+      "column": "genre_instrumental post-rock",
+      "track_count": 72
+    },
+    {
+      "genre": "madchester",
+      "column": "genre_madchester",
+      "track_count": 72
+    },
+    {
+      "genre": "neo-progressive",
+      "column": "genre_neo-progressive",
+      "track_count": 72
+    },
+    {
+      "genre": "political hip hop",
+      "column": "genre_political hip hop",
+      "track_count": 72
+    },
+    {
+      "genre": "popping",
+      "column": "genre_popping",
+      "track_count": 72
+    },
+    {
+      "genre": "red dirt",
+      "column": "genre_red dirt",
+      "track_count": 72
+    },
+    {
+      "genre": "reggaeton flow",
+      "column": "genre_reggaeton flow",
+      "track_count": 72
+    },
+    {
+      "genre": "classical trombone",
+      "column": "genre_classical trombone",
+      "track_count": 71
+    },
+    {
+      "genre": "grand rapids indie",
+      "column": "genre_grand rapids indie",
+      "track_count": 71
+    },
+    {
+      "genre": "irish folk",
+      "column": "genre_irish folk",
+      "track_count": 71
+    },
+    {
+      "genre": "japanese singer-songwriter",
+      "column": "genre_japanese singer-songwriter",
+      "track_count": 71
+    },
+    {
+      "genre": "norwegian jazz",
+      "column": "genre_norwegian jazz",
+      "track_count": 71
+    },
+    {
+      "genre": "ringtone",
+      "column": "genre_ringtone",
+      "track_count": 71
+    },
+    {
+      "genre": "tape club",
+      "column": "genre_tape club",
+      "track_count": 71
+    },
+    {
+      "genre": "disco house",
+      "column": "genre_disco house",
+      "track_count": 70
+    },
+    {
+      "genre": "euphoric hardstyle",
+      "column": "genre_euphoric hardstyle",
+      "track_count": 70
+    },
+    {
+      "genre": "gothic symphonic metal",
+      "column": "genre_gothic symphonic metal",
+      "track_count": 70
+    },
+    {
+      "genre": "kodomo no ongaku",
+      "column": "genre_kodomo no ongaku",
+      "track_count": 70
+    },
+    {
+      "genre": "musica criolla",
+      "column": "genre_musica criolla",
+      "track_count": 70
+    },
+    {
+      "genre": "olympia wa indie",
+      "column": "genre_olympia wa indie",
+      "track_count": 70
+    },
+    {
+      "genre": "post-rock",
+      "column": "genre_post-rock",
+      "track_count": 70
+    },
+    {
+      "genre": "seattle indie",
+      "column": "genre_seattle indie",
+      "track_count": 70
+    },
+    {
+      "genre": "austro-german modernism",
+      "column": "genre_austro-german modernism",
+      "track_count": 69
+    },
+    {
+      "genre": "bedroom soul",
+      "column": "genre_bedroom soul",
+      "track_count": 69
+    },
+    {
+      "genre": "british orchestra",
+      "column": "genre_british orchestra",
+      "track_count": 69
+    },
+    {
+      "genre": "contemporary jazz",
+      "column": "genre_contemporary jazz",
+      "track_count": 69
+    },
+    {
+      "genre": "korean r&b",
+      "column": "genre_korean r&b",
+      "track_count": 69
+    },
+    {
+      "genre": "outsider",
+      "column": "genre_outsider",
+      "track_count": 69
+    },
+    {
+      "genre": "persian pop",
+      "column": "genre_persian pop",
+      "track_count": 69
+    },
+    {
+      "genre": "r&b en espanol",
+      "column": "genre_r&b en espanol",
+      "track_count": 69
+    },
+    {
+      "genre": "scottish rock",
+      "column": "genre_scottish rock",
+      "track_count": 69
+    },
+    {
+      "genre": "bluegrass gospel",
+      "column": "genre_bluegrass gospel",
+      "track_count": 68
+    },
+    {
+      "genre": "calming instrumental",
+      "column": "genre_calming instrumental",
+      "track_count": 68
+    },
+    {
+      "genre": "cancion melodica",
+      "column": "genre_cancion melodica",
+      "track_count": 68
+    },
+    {
+      "genre": "gaming edm",
+      "column": "genre_gaming edm",
+      "track_count": 68
+    },
+    {
+      "genre": "german metal",
+      "column": "genre_german metal",
+      "track_count": 68
+    },
+    {
+      "genre": "glitchcore",
+      "column": "genre_glitchcore",
+      "track_count": 68
+    },
+    {
+      "genre": "japanese alternative rock",
+      "column": "genre_japanese alternative rock",
+      "track_count": 68
+    },
+    {
+      "genre": "jazz double bass",
+      "column": "genre_jazz double bass",
+      "track_count": 68
+    },
+    {
+      "genre": "korean classical piano",
+      "column": "genre_korean classical piano",
+      "track_count": 68
+    },
+    {
+      "genre": "nwobhm",
+      "column": "genre_nwobhm",
+      "track_count": 68
+    },
+    {
+      "genre": "rap underground espanol",
+      "column": "genre_rap underground espanol",
+      "track_count": 68
+    },
+    {
+      "genre": "rap underground mexicano",
+      "column": "genre_rap underground mexicano",
+      "track_count": 68
+    },
+    {
+      "genre": "smooth soul",
+      "column": "genre_smooth soul",
+      "track_count": 68
+    },
+    {
+      "genre": "vintage broadway",
+      "column": "genre_vintage broadway",
+      "track_count": 68
+    },
+    {
+      "genre": "drill beats",
+      "column": "genre_drill beats",
+      "track_count": 67
+    },
+    {
+      "genre": "dub poetry",
+      "column": "genre_dub poetry",
+      "track_count": 67
+    },
+    {
+      "genre": "futurepop",
+      "column": "genre_futurepop",
+      "track_count": 67
+    },
+    {
+      "genre": "industrial rock",
+      "column": "genre_industrial rock",
+      "track_count": 67
+    },
+    {
+      "genre": "pinoy hip hop",
+      "column": "genre_pinoy hip hop",
+      "track_count": 67
+    },
+    {
+      "genre": "scottish folk",
+      "column": "genre_scottish folk",
+      "track_count": 67
+    },
+    {
+      "genre": "canadian celtic",
+      "column": "genre_canadian celtic",
+      "track_count": 66
+    },
+    {
+      "genre": "danish pop rock",
+      "column": "genre_danish pop rock",
+      "track_count": 66
+    },
+    {
+      "genre": "japanese folk",
+      "column": "genre_japanese folk",
+      "track_count": 66
+    },
+    {
+      "genre": "lo-fi jazzhop",
+      "column": "genre_lo-fi jazzhop",
+      "track_count": 66
+    },
+    {
+      "genre": "russian hip hop",
+      "column": "genre_russian hip hop",
+      "track_count": 66
+    },
+    {
+      "genre": "swiss worship",
+      "column": "genre_swiss worship",
+      "track_count": 66
+    },
+    {
+      "genre": "african-american classical",
+      "column": "genre_african-american classical",
+      "track_count": 65
+    },
+    {
+      "genre": "classic venezuelan pop",
+      "column": "genre_classic venezuelan pop",
+      "track_count": 65
+    },
+    {
+      "genre": "comedienne",
+      "column": "genre_comedienne",
+      "track_count": 65
+    },
+    {
+      "genre": "electric bass",
+      "column": "genre_electric bass",
+      "track_count": 65
+    },
+    {
+      "genre": "electrofox",
+      "column": "genre_electrofox",
+      "track_count": 65
+    },
+    {
+      "genre": "hamburg hip hop",
+      "column": "genre_hamburg hip hop",
+      "track_count": 65
+    },
+    {
+      "genre": "japanese r&b",
+      "column": "genre_japanese r&b",
+      "track_count": 65
+    },
+    {
+      "genre": "latin jazz",
+      "column": "genre_latin jazz",
+      "track_count": 65
+    },
+    {
+      "genre": "modern jungle",
+      "column": "genre_modern jungle",
+      "track_count": 65
+    },
+    {
+      "genre": "singaporean pop",
+      "column": "genre_singaporean pop",
+      "track_count": 65
+    },
+    {
+      "genre": "world meditation",
+      "column": "genre_world meditation",
+      "track_count": 65
+    },
+    {
+      "genre": "children's story",
+      "column": "genre_children's story",
+      "track_count": 64
+    },
+    {
+      "genre": "color noise",
+      "column": "genre_color noise",
+      "track_count": 64
+    },
+    {
+      "genre": "danish pop",
+      "column": "genre_danish pop",
+      "track_count": 64
+    },
+    {
+      "genre": "drift phonk",
+      "column": "genre_drift phonk",
+      "track_count": 64
+    },
+    {
+      "genre": "indonesian worship",
+      "column": "genre_indonesian worship",
+      "track_count": 64
+    },
+    {
+      "genre": "thai pop",
+      "column": "genre_thai pop",
+      "track_count": 64
+    },
+    {
+      "genre": "avant-garde jazz",
+      "column": "genre_avant-garde jazz",
+      "track_count": 63
+    },
+    {
+      "genre": "blues-rock guitar",
+      "column": "genre_blues-rock guitar",
+      "track_count": 63
+    },
+    {
+      "genre": "cello",
+      "column": "genre_cello",
+      "track_count": 63
+    },
+    {
+      "genre": "electronic rock",
+      "column": "genre_electronic rock",
+      "track_count": 63
+    },
+    {
+      "genre": "experimental big band",
+      "column": "genre_experimental big band",
+      "track_count": 63
+    },
+    {
+      "genre": "gypsy jazz",
+      "column": "genre_gypsy jazz",
+      "track_count": 63
+    },
+    {
+      "genre": "japanese post-rock",
+      "column": "genre_japanese post-rock",
+      "track_count": 63
+    },
+    {
+      "genre": "lgbtq+ hip hop",
+      "column": "genre_lgbtq+ hip hop",
+      "track_count": 63
+    },
+    {
+      "genre": "neue deutsche harte",
+      "column": "genre_neue deutsche harte",
+      "track_count": 63
+    },
+    {
+      "genre": "pop edm",
+      "column": "genre_pop edm",
+      "track_count": 63
+    },
+    {
+      "genre": "afghan pop",
+      "column": "genre_afghan pop",
+      "track_count": 62
+    },
+    {
+      "genre": "art song",
+      "column": "genre_art song",
+      "track_count": 62
+    },
+    {
+      "genre": "black thrash",
+      "column": "genre_black thrash",
+      "track_count": 62
+    },
+    {
+      "genre": "electro latino",
+      "column": "genre_electro latino",
+      "track_count": 62
+    },
+    {
+      "genre": "german indie pop",
+      "column": "genre_german indie pop",
+      "track_count": 62
+    },
+    {
+      "genre": "hengelliset laulut",
+      "column": "genre_hengelliset laulut",
+      "track_count": 62
+    },
+    {
+      "genre": "instrumental worship",
+      "column": "genre_instrumental worship",
+      "track_count": 62
+    },
+    {
+      "genre": "lo-fi vgm",
+      "column": "genre_lo-fi vgm",
+      "track_count": 62
+    },
+    {
+      "genre": "massage",
+      "column": "genre_massage",
+      "track_count": 62
+    },
+    {
+      "genre": "nerdcore",
+      "column": "genre_nerdcore",
+      "track_count": 62
+    },
+    {
+      "genre": "new jersey rap",
+      "column": "genre_new jersey rap",
+      "track_count": 62
+    },
+    {
+      "genre": "r&b brasileiro",
+      "column": "genre_r&b brasileiro",
+      "track_count": 62
+    },
+    {
+      "genre": "classic schlager",
+      "column": "genre_classic schlager",
+      "track_count": 61
+    },
+    {
+      "genre": "cumbia santafesina",
+      "column": "genre_cumbia santafesina",
+      "track_count": 61
+    },
+    {
+      "genre": "hoerspiel",
+      "column": "genre_hoerspiel",
+      "track_count": 61
+    },
+    {
+      "genre": "japanese choir",
+      "column": "genre_japanese choir",
+      "track_count": 61
+    },
+    {
+      "genre": "lo-fi rap",
+      "column": "genre_lo-fi rap",
+      "track_count": 61
+    },
+    {
+      "genre": "melodic metalcore",
+      "column": "genre_melodic metalcore",
+      "track_count": 61
+    },
+    {
+      "genre": "melodipop",
+      "column": "genre_melodipop",
+      "track_count": 61
+    },
+    {
+      "genre": "sambass",
+      "column": "genre_sambass",
+      "track_count": 61
+    },
+    {
+      "genre": "schweizer rap",
+      "column": "genre_schweizer rap",
+      "track_count": 61
+    },
+    {
+      "genre": "volksmusik",
+      "column": "genre_volksmusik",
+      "track_count": 61
+    },
+    {
+      "genre": "west end",
+      "column": "genre_west end",
+      "track_count": 61
+    },
+    {
+      "genre": "classic hardstyle",
+      "column": "genre_classic hardstyle",
+      "track_count": 60
+    },
+    {
+      "genre": "dark cabaret",
+      "column": "genre_dark cabaret",
+      "track_count": 60
+    },
+    {
+      "genre": "french opera",
+      "column": "genre_french opera",
+      "track_count": 60
+    },
+    {
+      "genre": "glitchbreak",
+      "column": "genre_glitchbreak",
+      "track_count": 60
+    },
+    {
+      "genre": "indonesian pop",
+      "column": "genre_indonesian pop",
+      "track_count": 60
+    },
+    {
+      "genre": "italian techno",
+      "column": "genre_italian techno",
+      "track_count": 60
+    },
+    {
+      "genre": "kundiman",
+      "column": "genre_kundiman",
+      "track_count": 60
+    },
+    {
+      "genre": "montreal indie",
+      "column": "genre_montreal indie",
+      "track_count": 60
+    },
+    {
+      "genre": "rap latina",
+      "column": "genre_rap latina",
+      "track_count": 60
+    },
+    {
+      "genre": "skate punk",
+      "column": "genre_skate punk",
+      "track_count": 60
+    },
+    {
+      "genre": "trap italiana",
+      "column": "genre_trap italiana",
+      "track_count": 60
+    },
+    {
+      "genre": "boom bap brasileiro",
+      "column": "genre_boom bap brasileiro",
+      "track_count": 59
+    },
+    {
+      "genre": "children's choir",
+      "column": "genre_children's choir",
+      "track_count": 59
+    },
+    {
+      "genre": "chinese bgm",
+      "column": "genre_chinese bgm",
+      "track_count": 59
+    },
+    {
+      "genre": "dansband",
+      "column": "genre_dansband",
+      "track_count": 59
+    },
+    {
+      "genre": "deep minimal techno",
+      "column": "genre_deep minimal techno",
+      "track_count": 59
+    },
+    {
+      "genre": "easycore",
+      "column": "genre_easycore",
+      "track_count": 59
+    },
+    {
+      "genre": "kindie rock",
+      "column": "genre_kindie rock",
+      "track_count": 59
+    },
+    {
+      "genre": "neofolk",
+      "column": "genre_neofolk",
+      "track_count": 59
+    },
+    {
+      "genre": "new rave",
+      "column": "genre_new rave",
+      "track_count": 59
+    },
+    {
+      "genre": "ragtime",
+      "column": "genre_ragtime",
+      "track_count": 59
+    },
+    {
+      "genre": "uk alternative pop",
+      "column": "genre_uk alternative pop",
+      "track_count": 59
+    },
+    {
+      "genre": "vintage swedish pop",
+      "column": "genre_vintage swedish pop",
+      "track_count": 59
+    },
+    {
+      "genre": "corrosion",
+      "column": "genre_corrosion",
+      "track_count": 58
+    },
+    {
+      "genre": "gospel rap",
+      "column": "genre_gospel rap",
+      "track_count": 58
+    },
+    {
+      "genre": "louisiana blues",
+      "column": "genre_louisiana blues",
+      "track_count": 58
+    },
+    {
+      "genre": "mambo",
+      "column": "genre_mambo",
+      "track_count": 58
+    },
+    {
+      "genre": "modern enka",
+      "column": "genre_modern enka",
+      "track_count": 58
+    },
+    {
+      "genre": "musica costena",
+      "column": "genre_musica costena",
+      "track_count": 58
+    },
+    {
+      "genre": "philly soul",
+      "column": "genre_philly soul",
+      "track_count": 58
+    },
+    {
+      "genre": "schlager",
+      "column": "genre_schlager",
+      "track_count": 58
+    },
+    {
+      "genre": "seattle hip hop",
+      "column": "genre_seattle hip hop",
+      "track_count": 58
+    },
+    {
+      "genre": "spanish folk",
+      "column": "genre_spanish folk",
+      "track_count": 58
+    },
+    {
+      "genre": "taiwan singer-songwriter",
+      "column": "genre_taiwan singer-songwriter",
+      "track_count": 58
+    },
+    {
+      "genre": "western swing",
+      "column": "genre_western swing",
+      "track_count": 58
+    },
+    {
+      "genre": "a cappella",
+      "column": "genre_a cappella",
+      "track_count": 57
+    },
+    {
+      "genre": "symphonic metal",
+      "column": "genre_symphonic metal",
+      "track_count": 57
+    },
+    {
+      "genre": "vapor twitch",
+      "column": "genre_vapor twitch",
+      "track_count": 57
+    },
+    {
+      "genre": "afro soul",
+      "column": "genre_afro soul",
+      "track_count": 56
+    },
+    {
+      "genre": "australian indie",
+      "column": "genre_australian indie",
+      "track_count": 56
+    }
+  ]
+}

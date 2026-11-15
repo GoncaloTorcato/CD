@@ -6,7 +6,11 @@ According to the competition description, the dataset consists of:
 - `test.csv`: track identifiers and features without the target. It is used to generate predictions for submission.
 - `sample_submission.csv`: an example of the submission format.
 
-The currently available [`project_data.csv`](project_data.csv) file contains 87,513 rows and the columns `id` and `music_hit`. The `music_hit` values are decimals between 0 and 1, so the file appears to be a submission or sample submission; it does not contain the features needed to train a model. The files `train.csv`, `test.csv`, and `sample_submission.csv` have not been found in this folder.
+The three downloaded files are in `raw/`: `train.csv` contains 350,051 rows and 24 columns, `test.csv` contains 87,513 rows and 23 columns, and `sample_submission.csv` contains 87,513 rows with the columns `id` and `music_hit`.
+
+## Processed training data
+
+`processed/train.csv` preserves the original training rows and replaces `artist_genres` with 1,000 binary genre columns plus `genre_unknown` (1 when no genres are provided). Known genres outside the selected 1,000 are not marked as unknown. The selected vocabulary is saved in [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). To reproduce this step, open [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb) and run all cells.
 
 ## Column descriptions
 
