@@ -8,13 +8,20 @@ According to the competition description, the dataset consists of:
 
 The three downloaded files are in `raw/`: `train.csv` contains 350,051 rows and 24 columns, `test.csv` contains 87,513 rows and 23 columns, and `sample_submission.csv` contains 87,513 rows with the columns `id` and `music_hit`.
 
-## Processed training data
+## Processed datasets
 
-`processed/train.csv` preserves the original training rows and replaces `artist_genres` with 1,000 binary genre columns plus `genre_unknown` (1 when no genres are provided). Known genres outside the selected 1,000 are not marked as unknown. The selected vocabulary is saved in [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). To reproduce this step, open [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb) and run all cells.
+The delivery notebook exports the complete preparation to `processed/train.csv` and `processed/test.csv` when `EXPORT_PROCESSED_CSV = True`. These files preserve the original row order and include:
 
-The delivery notebook additionally fills missing `track_name`, `album_name`, and `record_label` values with `unknown` in both datasets before genre encoding. This combined preparation runs in memory; the working study is in [03_text_metadata_preparation.ipynb](../notebooks/03_text_metadata_preparation.ipynb).
+- Missing `track_name`, `album_name`, and `record_label` values filled with `unknown`.
+- Leading and trailing whitespace removed from `artist_name`.
+- `release_date` replaced with the numeric feature `release_year`.
+- `artist_genres` replaced with the same 1,000 binary genre columns and `genre_unknown` in both datasets. The vocabulary is selected using only training data.
 
-It also removes leading and trailing whitespace from `artist_name`, preserving internal spaces and follower counts. The working study and consistency checks are in [04_artist_name_preparation.ipynb](../notebooks/04_artist_name_preparation.ipynb).
+The training file contains 350,051 rows and 1,024 columns; the test file contains 87,513 rows and 1,023 columns, without `music_hit`. Raw files remain unchanged, and processed CSV files are excluded from Git.
+
+To reproduce the current files, run [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb) from top to bottom with export enabled. The individual studies are in `notebooks/03_text_metadata_preparation.ipynb`, `04_artist_name_preparation.ipynb`, and `05_release_date_preparation.ipynb`.
+
+The optional genre-only working snapshot is exported separately as `processed/train_genres_only.csv` by [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb), together with [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). It does not overwrite the complete prepared datasets.
 
 ## Column descriptions
 
