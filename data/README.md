@@ -10,16 +10,17 @@ The three downloaded files are in `raw/`: `train.csv` contains 350,051 rows and 
 
 ## Processed datasets
 
-The delivery notebook exports the complete preparation to `processed/train.csv` and `processed/test.csv` when `EXPORT_PROCESSED_CSV = True`. These files preserve the original row order and include:
+The delivery notebook exports the complete preparation to `processed/train.csv` and `processed/test.csv` when `EXPORT_PROCESSED_CSV = True`. These files preserve the relative order of retained rows and include:
 
+- Training-only exclusion of zero-duration tracks (IDs `244276` and `287253`); all test rows are retained.
 - Missing `track_name`, `album_name`, and `record_label` values filled with `unknown`.
 - Leading and trailing whitespace removed from `artist_name`.
 - `release_date` replaced with the numeric feature `release_year`.
 - `artist_genres` replaced with the same 1,000 binary genre columns and `genre_unknown` in both datasets. The vocabulary is selected using only training data.
 
-The training file contains 350,051 rows and 1,024 columns; the test file contains 87,513 rows and 1,023 columns, without `music_hit`. Raw files remain unchanged, and processed CSV files are excluded from Git.
+The training file contains 350,049 rows and 1,024 columns; the test file contains 87,513 rows and 1,023 columns, without `music_hit`. Raw files remain unchanged, and processed CSV files are excluded from Git.
 
-To reproduce the current files, run [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb) from top to bottom with export enabled. The individual studies are in `notebooks/03_text_metadata_preparation.ipynb`, `04_artist_name_preparation.ipynb`, and `05_release_date_preparation.ipynb`.
+To reproduce the current files, run [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb) from top to bottom with export enabled. The individual studies are in `notebooks/03_text_metadata_preparation.ipynb`, `04_artist_name_preparation.ipynb`, `05_release_date_preparation.ipynb`, and `06_duration_preparation.ipynb`.
 
 The optional genre-only working snapshot is exported separately as `processed/train_genres_only.csv` by [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb), together with [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). It does not overwrite the complete prepared datasets.
 
