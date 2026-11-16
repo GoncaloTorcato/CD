@@ -12,6 +12,8 @@ The three downloaded files are in `raw/`: `train.csv` contains 350,051 rows and 
 
 `processed/train.csv` preserves the original training rows and replaces `artist_genres` with 1,000 binary genre columns plus `genre_unknown` (1 when no genres are provided). Known genres outside the selected 1,000 are not marked as unknown. The selected vocabulary is saved in [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). To reproduce this step, open [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb) and run all cells.
 
+The delivery notebook additionally fills missing `track_name`, `album_name`, and `record_label` values with `unknown` in both datasets before genre encoding. This combined preparation runs in memory; the working study is in [03_text_metadata_preparation.ipynb](../notebooks/03_text_metadata_preparation.ipynb).
+
 ## Column descriptions
 
 | Column | Description |
