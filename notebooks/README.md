@@ -2,6 +2,8 @@
 
 The analysis and preparation code previously stored in `scripts/` is now organized here. Each notebook starts with a short explanation of its purpose, inputs, and outputs, followed by numbered steps.
 
+These are working notebooks. The single notebook for submission is [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb), which contains the retained preparation steps and reads the original CSV files directly. It does not depend on these working notebooks or their exported artifacts.
+
 | Notebook | Purpose | Outputs |
 | --- | --- | --- |
 | [01_genre_analysis.ipynb](01_genre_analysis.ipynb) | Count genres and compare coverage for different vocabulary sizes. | Frequency ranking, coverage table, and summary in `reports/genre_analysis/`. |

@@ -7,6 +7,7 @@ A data science project to predict the probability that a track is a music hit us
 - `data/raw/` — original training and test data, kept unchanged.
 - `data/processed/` — cleaned and prepared data for analysis and modeling.
 - `notebooks/` — numbered notebooks for analysis and data preparation; see [notebooks/README.md](notebooks/README.md).
+- `delivery/` — the [submission notebook](delivery/music_hit_prediction.ipynb), containing the retained steps; the final prediction CSV will be added after model training.
 - `src/` — reusable code for data preparation and model training.
 - `models/` — trained models and preprocessing metadata, including the selected genre vocabulary.
 - `reports/` — reports and results; `reports/figures/` stores plots.
