@@ -14,6 +14,8 @@ The three downloaded files are in `raw/`: `train.csv` contains 350,051 rows and 
 
 The delivery notebook additionally fills missing `track_name`, `album_name`, and `record_label` values with `unknown` in both datasets before genre encoding. This combined preparation runs in memory; the working study is in [03_text_metadata_preparation.ipynb](../notebooks/03_text_metadata_preparation.ipynb).
 
+It also removes leading and trailing whitespace from `artist_name`, preserving internal spaces and follower counts. The working study and consistency checks are in [04_artist_name_preparation.ipynb](../notebooks/04_artist_name_preparation.ipynb).
+
 ## Column descriptions
 
 | Column | Description |
