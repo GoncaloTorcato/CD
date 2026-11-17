@@ -1,21 +1,23 @@
 # Project notebooks
 
-The analysis and preparation code previously stored in `scripts/` is now organized here. Each notebook starts with a short explanation of its purpose, inputs, and outputs, followed by numbered steps.
-
-These are working notebooks. The single notebook for submission is [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb), which contains the retained preparation steps and reads the original CSV files directly. It does not depend on these working notebooks or their exported artifacts.
+We keep data preparation separate from model evaluation. Both [08_logistic_regression_baseline.ipynb](08_logistic_regression_baseline.ipynb) and [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb) read only the existing `data/processed/train.csv` and `data/processed/test.csv` files.
 
 | Notebook | Purpose | Outputs |
 | --- | --- | --- |
-| [01_genre_analysis.ipynb](01_genre_analysis.ipynb) | Count genres and compare coverage for different vocabulary sizes. | Frequency ranking, coverage table, and summary in `reports/genre_analysis/`. |
-| [02_genre_preparation.ipynb](02_genre_preparation.ipynb) | Replace `artist_genres` with 1,000 binary genre columns and `genre_unknown`. | `data/processed/train_genres_only.csv` and `models/genre_vocabulary.json`. |
-| [03_text_metadata_preparation.ipynb](03_text_metadata_preparation.ipynb) | Study `track_name`, `album_name`, and `record_label`, then fill missing fields with `unknown`. | Cleaned training/test frames in memory and `reports/text_metadata/summary.md`. |
-| [04_artist_name_preparation.ipynb](04_artist_name_preparation.ipynb) | Study surrounding spaces in `artist_name`, check follower consistency, and trim the names. | Cleaned training/test frames in memory and `reports/artist_name_preparation/summary.md`. |
-| [05_release_date_preparation.ipynb](05_release_date_preparation.ipynb) | Study release dates and replace `release_date` with the numeric `release_year` feature. | Prepared training/test frames in memory and `reports/release_date_preparation/summary.md`. |
-| [06_duration_preparation.ipynb](06_duration_preparation.ipynb) | Study durations and exclude only zero-duration training rows, retaining every test track. | Filtered training/test frames in memory and `reports/duration_preparation/summary.md`. |
-| [07_artist_followers_preparation.ipynb](07_artist_followers_preparation.ipynb) | Study follower-count skewness and add `artist_followers_log1p`, preserving the original counts. | Prepared training/test frames in memory and `reports/artist_followers_preparation/summary.md`. |
+| [00_data_preparation.ipynb](00_data_preparation.ipynb) | Reproduce all retained transformations from the original competition CSV files. | Complete `data/processed/train.csv` and `test.csv`. |
+| [01_genre_analysis.ipynb](01_genre_analysis.ipynb) | Study genre frequencies and coverage. | `reports/genre_analysis/`. |
+| [02_genre_preparation.ipynb](02_genre_preparation.ipynb) | Reproduce a separate genre-only working snapshot. | `data/processed/train_genres_only.csv` and `models/genre_vocabulary.json`. |
+| [03_text_metadata_preparation.ipynb](03_text_metadata_preparation.ipynb) | Study missing titles, album names, and labels and fill them with `unknown`. | In-memory frames and `reports/text_metadata/`. |
+| [04_artist_name_preparation.ipynb](04_artist_name_preparation.ipynb) | Study and trim surrounding spaces in artist names. | In-memory frames and `reports/artist_name_preparation/`. |
+| [05_release_date_preparation.ipynb](05_release_date_preparation.ipynb) | Study dates and retain the release year. | In-memory frames and `reports/release_date_preparation/`. |
+| [06_duration_preparation.ipynb](06_duration_preparation.ipynb) | Exclude only zero-duration training tracks. | In-memory frames and `reports/duration_preparation/`. |
+| [07_artist_followers_preparation.ipynb](07_artist_followers_preparation.ipynb) | Study and add logarithmic follower counts. | In-memory frames and `reports/artist_followers_preparation/`. |
+| [08_logistic_regression_baseline.ipynb](08_logistic_regression_baseline.ipynb) | Train and evaluate one fixed logistic regression on prepared data, then refit on all training rows. | `reports/logistic_regression/`, `models/logistic_regression.joblib`, and `delivery/predictions.csv`. |
 
-Select a Python environment with the repository dependencies installed, then restart the kernel and run all cells from top to bottom. All working notebooks work from the project root or `notebooks/`, and each can run independently. Notebook 02 optionally regenerates a separate genre-only snapshot (`train_genres_only.csv`), which is about 735 MiB; notebooks 03–07 keep their prepared frames in memory. Raw files are never modified. The delivery notebook combines training-only zero-duration filtering, missing-text filling, artist-name trimming, release-year extraction, a logarithmic follower feature, and genre encoding without depending on intermediate files. With `EXPORT_PROCESSED_CSV = True`, it exports the complete preparation to `data/processed/train.csv` and `data/processed/test.csv`.
+To regenerate prepared CSV files, run notebook 00. To evaluate the current prepared data, run notebook 08 or the delivery notebook from top to bottom. The model notebooks do not repeat cleaning, select genres again, or compare alternative feature sets.
 
-Genre frequencies count tracks, not unique artists. Tracks without genres have `genre_unknown = 1`; tracks with known genres outside the selected vocabulary have `genre_unknown = 0`.
+The fixed model uses logarithmic followers, prepared genre indicators, audio attributes, duration, release year, binary features, and one-hot encoded small categories. Original followers, IDs, titles, artist names, record labels, and the target remain outside the input feature set.
 
-The current preparation uses the full training CSV. When evaluating models, select the genre vocabulary using only the training split and reuse it on validation and test data.
+The validation partition comes from the prepared labeled training file; the unlabeled test file is used for final probability predictions. Numerical imputation, scaling, and model-time categorical encoding are fitted on the training partition only. The existing genre columns were selected during preparation before this split, so the reported validation evaluates that fixed prepared dataset.
+
+The delivery notebook depends on the prepared CSV files. Raw files and large processed files are not changed during model training.

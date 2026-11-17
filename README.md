@@ -7,13 +7,15 @@ A data science project to predict the probability that a track is a music hit us
 - `data/raw/` — original training and test data, kept unchanged.
 - `data/processed/` — cleaned and prepared data for analysis and modeling.
 - `notebooks/` — numbered notebooks for analysis and data preparation; see [notebooks/README.md](notebooks/README.md).
-- `delivery/` — the [submission notebook](delivery/music_hit_prediction.ipynb), containing the retained steps; the final prediction CSV will be added after model training.
+- `delivery/` — the [submission notebook](delivery/music_hit_prediction.ipynb), running one logistic regression configuration on the prepared CSV files, and `predictions.csv` with test probabilities.
 - `src/` — reusable code for data preparation and model training.
 - `models/` — trained models and preprocessing metadata, including the selected genre vocabulary.
 - `reports/` — reports and results; `reports/figures/` stores plots.
 - `submissions/` — CSV files containing predictions for submission.
 
 The downloaded competition files are in `data/raw/`. See [data/README.md](data/README.md) for the dataset and column descriptions.
+
+The [complete preparation notebook](notebooks/00_data_preparation.ipynb) reproduces the retained changes and exports the prepared CSV files. The [logistic regression baseline](notebooks/08_logistic_regression_baseline.ipynb) and delivery notebook both read those files directly and train one fixed configuration with logarithmic followers and prepared genre indicators. They write scores to `reports/logistic_regression/`, save the model to `models/logistic_regression.joblib`, and generate `delivery/predictions.csv`.
 
 ## Submission
 

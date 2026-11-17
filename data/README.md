@@ -10,7 +10,7 @@ The three downloaded files are in `raw/`: `train.csv` contains 350,051 rows and 
 
 ## Processed datasets
 
-The delivery notebook exports the complete preparation to `processed/train.csv` and `processed/test.csv` when `EXPORT_PROCESSED_CSV = True`. These files preserve the relative order of retained rows and include:
+The complete preparation notebook (`notebooks/00_data_preparation.ipynb`) exports the retained preparation to `processed/train.csv` and `processed/test.csv` when `EXPORT_PROCESSED_CSV = True`. These files preserve the relative order of retained rows and include:
 
 - Training-only exclusion of zero-duration tracks (IDs `244276` and `287253`); all test rows are retained.
 - Missing `track_name`, `album_name`, and `record_label` values filled with `unknown`.
@@ -21,9 +21,11 @@ The delivery notebook exports the complete preparation to `processed/train.csv` 
 
 The training file contains 350,049 rows and 1,025 columns; the test file contains 87,513 rows and 1,024 columns, without `music_hit`. Raw files remain unchanged, and processed CSV files are excluded from Git.
 
-To reproduce the current files, run [delivery/music_hit_prediction.ipynb](../delivery/music_hit_prediction.ipynb) from top to bottom with export enabled. The individual studies are in `notebooks/03_text_metadata_preparation.ipynb`, `04_artist_name_preparation.ipynb`, `05_release_date_preparation.ipynb`, `06_duration_preparation.ipynb`, and `07_artist_followers_preparation.ipynb`.
+To reproduce the current files, run [00_data_preparation.ipynb](../notebooks/00_data_preparation.ipynb) from top to bottom with export enabled. The individual studies are in `notebooks/03_text_metadata_preparation.ipynb`, `04_artist_name_preparation.ipynb`, `05_release_date_preparation.ipynb`, `06_duration_preparation.ipynb`, and `07_artist_followers_preparation.ipynb`.
 
 The optional genre-only working snapshot is exported separately as `processed/train_genres_only.csv` by [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb), together with [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). It does not overwrite the complete prepared datasets.
+
+Both modeling notebooks read these prepared CSV files directly. The baseline uses one fixed feature set, including the existing genre columns and logarithmic followers. Imputation, scaling, and model-time categorical encoding are fitted only on the training partition; genre columns remain fixed as prepared before the split. The fitted feature map is saved in `models/logistic_regression.joblib`, while the earlier JSON belongs to the standalone genre-preparation study.
 
 ## Column descriptions
 
