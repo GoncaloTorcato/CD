@@ -25,7 +25,9 @@ To reproduce the current files, run [00_data_preparation.ipynb](../notebooks/00_
 
 The optional genre-only working snapshot is exported separately as `processed/train_genres_only.csv` by [02_genre_preparation.ipynb](../notebooks/02_genre_preparation.ipynb), together with [`models/genre_vocabulary.json`](../models/genre_vocabulary.json). It does not overwrite the complete prepared datasets.
 
-Both modeling notebooks read these prepared CSV files directly. The baseline uses one fixed feature set, including the existing genre columns and logarithmic followers. Imputation, scaling, and model-time categorical encoding are fitted only on the training partition; genre columns remain fixed as prepared before the split. The fitted feature map is saved in `models/logistic_regression.joblib`, while the earlier JSON belongs to the standalone genre-preparation study.
+Both modeling notebooks read these prepared CSV files directly. The baseline uses one fixed feature set, including the existing genre columns, logarithmic followers, and a model-time record-label target encoding. Imputation, scaling, and model-time categorical encoding are fitted only on the training partition; genre columns remain fixed as prepared before the split. The fitted feature map is saved in `models/logistic_regression.joblib`, while the earlier JSON belongs to the standalone genre-preparation study.
+
+`record_label` remains text in these CSV files. Its smoothed hit-rate representation is supervised, so it is learned inside model fitting using five group-aware internal folds, without validation targets. The raw encoded rates lie between 0 and 1 and are then standardized using training values. The final encoder and scaler are saved with the classifier, and unseen labels use the training hit rate. The study is in [09_record_label_encoding.ipynb](../notebooks/09_record_label_encoding.ipynb).
 
 ## Column descriptions
 

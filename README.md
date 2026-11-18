@@ -15,7 +15,7 @@ A data science project to predict the probability that a track is a music hit us
 
 The downloaded competition files are in `data/raw/`. See [data/README.md](data/README.md) for the dataset and column descriptions.
 
-The [complete preparation notebook](notebooks/00_data_preparation.ipynb) reproduces the retained changes and exports the prepared CSV files. The [logistic regression baseline](notebooks/08_logistic_regression_baseline.ipynb) and delivery notebook both read those files directly and train one fixed configuration with logarithmic followers and prepared genre indicators. They write scores to `reports/logistic_regression/`, save the model to `models/logistic_regression.joblib`, and generate `delivery/predictions.csv`.
+The [complete preparation notebook](notebooks/00_data_preparation.ipynb) reproduces the retained changes and exports the prepared CSV files. The [logistic regression baseline](notebooks/08_logistic_regression_baseline.ipynb) and delivery notebook both read those files directly and train one fixed configuration with logarithmic followers, prepared genre indicators, and group-aware record-label target encoding. They write scores to `reports/logistic_regression/`, save the model and encoders to `models/logistic_regression.joblib`, and generate `delivery/predictions.csv`. The [record-label study](notebooks/09_record_label_encoding.ipynb) documents the measured contribution of the added feature.
 
 ## Submission
 
